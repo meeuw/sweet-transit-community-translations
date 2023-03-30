@@ -1,0 +1,4 @@
+name = sweet-transit-community-translations;
+mod_version = VERSION;
+game_version = 3.5.1;
+dont_load_with_newer_version = false;

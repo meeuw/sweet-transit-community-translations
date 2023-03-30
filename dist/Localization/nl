@@ -1,0 +1,1868 @@
+Fonts
+{
+  font=free_font_default;
+  font_bold=free_font_default_bold;
+}
+
+Languages
+{
+  en=Engels;
+  fr=Frans;
+  it=Italiaans;
+  de=Duits;
+  es=Spaans;
+  ru=Russisch;
+  zht=Traditioneel Chinees;
+  zhs=Vereenvoudigd Chinees;
+  ja=Japans;
+  ko=Koreaans;
+  lt=Litouws;
+  nl=Nederlands;
+  pl=Pools;
+}
+
+Mods
+{
+  add_to_workshop=Voeg toe aan Steam Workshop;
+  add_to_workshop_info=Wil je een nieuwe mod maken in Steam Workshop?;
+  open_workshop=Steam Workshop openen;
+  update=Mod bestanden bijwerken;
+  update_info=Wil je mod-bestanden uploaden naar Steam Workshop?;
+  creating_new=Maak een nieuw item...;
+  uploading=Uploaden...;
+  failed=Mislukt!;
+  built_in=Ingebouwd;
+  mods=Mods;
+
+  tip_connect=Alle routes moeten met elkaar verbonden zijn. Klik op een in- of uitgang om te zien waar de treinen heen moeten.;
+  tip_more_signals=Niet genoeg seinen om meerdere treinen op de bestaande rails te gebruiken.;
+  tip_less_corners=Treinen vertragen bij het maken van meer dan één bocht.;
+  tip_no_cross=De sporen mogen elkaar niet kruisen voor de beste prestaties. Gebruik bruggen.;
+  tip_split=Treinen die in verschillende richtingen rijden, mogen elkaar niet blokkeren. Splits het spoor eerder en voeg ze pas tegen het einde weer samen.;
+  tip_chain=Kettingseinen kopieren seinen die er voor staan. Dit betekend dat een trein kan kiezen welk perron wordt gebruikt.;
+  tip_chain_block=Kettingseinen blokkeren geen kruisingen. Plaats kettingseinen richting een kruispunt.;
+  tip_platforms=Het toevoegen van meer perrons zou kunnen helpen.;
+  tip_watch=Kijk waar de treinen stoppen om te wachten en maak meer spoor om te voorkomen dat treinen elkaar blokkeren.;
+  tip_steel=Stalenbruggen hebben hoeken.;
+  tip_undo=Druk op {undo} om ongedaan te maken - {redo} om ongedaan maken te herstellen - {remove} om te schakelen naar de verwijderstand;
+  tip_bm=Druk op {key} om te schakelen tussen de bouwmodus - {pause} om te pauzeren;
+
+  base=Basis spel;
+  base_description=Het basisspel van Sweet Transit.;
+}
+
+Entities
+{
+  dirt=Aarde 1;
+  dirt2=Aarde 2;
+  grid_tile=Rastertegel;
+  gravel=Grind;
+  mountain=Berg;
+  short_grass=Kort gras;
+  warehouse_tiles=Magazijn tegels;
+  wild_grass=Wild gras;
+  cobblestone=Straatkeien;
+  dirt_road_fill=Onverhard wegdek;
+  dry_sand=Droog zand;
+  sand=Zand;
+  red_dry_sand=Rood droog zand;
+  red_sand=Rood zand;
+
+  rocks_small=Kleine stenen;
+  rocks_medium=Middelgrote stenen;
+  rocks_big=Grote stenen;
+  desert_rocks_small=Kleine woestijnstenen;
+  desert_rocks_medium=Middelgrote woestijnstenen;
+  desert_rocks_big=Grote woestijnstenen;
+  grass_clump=Graspol;
+  grass_clump_yellow=Gele graspol;
+  grass_clump_dry=Droge graspol;
+  dead_bush=Dode struik;
+  dead_bush_green=Dode groene struik;
+  dead_bush_red=Dode rode struik;
+  yucca=Yucca;
+  yucca_dry=Droge Yucca;
+
+  fir=Spar;
+  fir_autumn=Herfst spar;
+  pine=Den;
+  pine_autumn=Herfst den;
+  joshua=Joshua boom;
+  joshua_dry=Droge Joshua boom;
+  acacia=Acacia boom;
+  acacia_dry=Droge acacia boom;
+  palm=Palmboom;
+  palm_dry=Droge palmboom;
+  hops_tree=Hopboom;
+
+  beer=Bier;
+  books=Boeken;
+  bread=Brood;
+  bricks=Stenen;
+  cheese=Kaas;
+  clay=Klei;
+  clothes=Kleding;
+  coal=Kolen;
+  cotton=Katoen;
+  cut_stone=Natuursteen;
+  fish=Vis;
+  hops=Hop;
+  meat=Vlees;
+  milk=Melk;
+  crude_oil=Ruwe olie;
+  diesel=Diesel;
+  paper=Papier;
+  potatoes=Aardappelen;
+  iron_ore=IJzererts;
+  steel=Staal;
+  stone=Steen;
+  tools=Gereedschap;
+  wheat=Tarwe;
+  wood=Hout;
+
+  rails=Spoor;
+  rail_bridge=Testbrug;
+  rail_wooden_bridge=Houtenbrug;
+  rail_stone_bridge=Stenenbrug;
+  rail_steel_bridge=Staalbrug;
+  rail_signal=Spoor sein;
+  rail_signal_stone_bridge=Spoor sein;
+  rail_chain_signal=Seinenketting;
+  rail_chain_signal_stone_bridge=Seinenketting;
+  requirement_signal=Vereist sein;
+  requirement_signal_stone_bridge=Vereist sein;
+
+  locomotive_st10=ST10;
+  locomotive_st20=ST20;
+  locomotive_st30=ST30;
+  locomotive_dt10=DT10;
+  locomotive_dt20=DT20;
+  locomotive_dt30=DT30;
+  locomotive_jet=Jet;
+
+  wagon_coal_tender=Kolen offerte;
+  wagon_st10=ST10 Wagon;
+  wagon_st20=ST20 Wagon;
+  wagon_st30=ST30 Wagon;
+  wagon_dt10=DT10 Wagon;
+  wagon_dt20=DT20 Wagon;
+  wagon_dt30=DT30 Wagon;
+  wagon_jet=Jet Wagon;
+  wagon_flat_f10=Platwagon F10;
+  wagon_flat_f20=Platwagon F20;
+  wagon_flat_f30=Platwagon F30;
+  wagon_box_b10=Kistwagon B10;
+  wagon_box_b20=Kistwagon B20;
+  wagon_box_b30=Kistwagon B30;
+  wagon_gondola_g10=Gondelwagon G10;
+  wagon_gondola_g20=Gondelwagon G20;
+  wagon_gondola_g30=Gondelwagon G30;
+  wagon_tank_t10=Tankwagon T10;
+  wagon_tank_t20=Tankwagon T20;
+
+  station=Station;
+  station_platform=Perron;
+  small_station=Klein station;
+  small_station_platform=Perron;
+  small_station_coal_storage=Kolenopslag;
+  station_roof=Dak;
+  passenger_station=Passagiersstation;
+  underground_passage=Ondergrondse stationspassage;
+  underground_passage_roof=Ondergrondse spoorpassage;
+  station_platform_roof=Overdekt perron;
+  distribution_center=Distributiecentrum;
+
+  bridge_01=Brug;
+  bridge_02=Houtenbrug;
+  bridge_03=Stenenbrug;
+
+  deposit_coal=Kolenopslag;
+  deposit_clay=Kleiopslag;
+  deposit_iron=IJzeropslag;
+
+  coal_mine=Kolenmijn;
+  coal_storage_expansion=Kolenopslag;
+  iron_mine=IJzermijn;
+  iron_storage_expansion=IJzeropslag;
+  clay_pit=Kleiput;
+  clay_storage_expansion=Kleiopslag;
+  sawmill=Zaagmolen;
+  sawmill_storage_expansion=Houtopslag;
+  sawmill_plantation=Bomenkwekerij;
+  potato_farm=Aardappelboerderij;
+  potato_storage_expansion=Aardappelopslag;
+  potato_field=Aardappelveld;
+  quarry=Steengroeve;
+  quarry_storage_expansion=Steenopslag;
+  cotton_storage_expansion=Katoenopslag;
+  cotton_plantation=Katoenboerderij;
+  cotton_field=Katoenveld;
+  wheat_farm=Tarweboerderij;
+  wheat_storage_expansion=Tarweopslag;
+  wheat_plantation=Tarweveld;
+  train_depot=Treinendepot;
+  smelter=Smeederij;
+  steel_mill=Staalbedrijf;
+  brickworks=Steenfabriek;
+  brick_kiln_expansion=Bakoven;
+  brick_storage_expansion=Droogveld;
+  hop_farm=Hopboerderij;
+  hop_field=Hopveld;
+  hop_storage_expansion=Hopopslag;
+  cattle_farm=Veeboerder;
+  cattle_field=Veewijde;
+  meat_storage_expansion=Vleesopslag;
+  paper_mill=Papiermolen;
+  paper_mill_processing=Voedselverwerker;
+  paper_mill_pulp=Papierpulpfabriek;
+  paper_mill_production=Papierfabriek;
+  dairy_farm=Zuivelboerderij;
+  dairy_field=Koeienwijde;
+  milk_storage_expansion=Melkopslag;
+  pumpjack=Olie boortoren;
+  oil_storage_expansion=Ruwe olie opslag;
+  oil_refinery=Olieraffinaderij;
+  oil_boiler=Boiler;
+  oil_cracker=Kraken;
+  cheese_factory=Kaasfabriek;
+  cheese_production_plant=Kaasproductiefabriek;
+  cheese_milk_storage=Melkopslag;
+
+
+  coal_plant=Kolen energiecentrale;
+  offshore_wind_turbine=Zeewindmolen;
+  wind_turbine=Windmolen;
+
+  warehouse=Magazijn;
+  warehouse_storage_small=Kleine opslag;
+  warehouse_storage_medium=Middelgrote opslag;
+  warehouse_tank_small=Opslagtank;
+  warehouse_bridge=Brug;
+
+  dirt_road=Onverhardeweg;
+  stone_road=Stenenweg;
+  laborer_residential=Arbeiderswoning;
+  craftsmen_residential=Vakliedenwoning;
+  water_tower=Watertoren;
+  market=Markt;
+  market_2=Markthal;
+  house_of_worship=Gebedshuis;
+  storage_small=Kleine opslag;
+  storage_medium=Middelgrote opslag;
+  bakery=Bakkerij;
+  bakery_2=Ambachtelijke bakkerij;
+  tools_shop=Gereedschapswinkel;
+  stoneworks=Steenbewerker;
+  stoneworks_2=Vakmansteenfabrieken;
+  clothes_shop=Kledingwinkel;
+  clothes_shop_2=Vakmanskledingwinkel;
+  fishing_dock=Vissershaven;
+  village_hall=Dorpshuis;
+  town_hall=Stadhuis;
+  brewery=Brouwerij;
+  bar=Bar;
+  bookstore=Boekwinkel;
+  school=School;
+
+  small_park=Klein park;
+  decor_fir=Den;
+  decor_foliage=Loofbomen;
+  decor_village_props=Rekwisieten;
+  decor_hedge=Heg;
+  decor_garden=Tuin;
+  decor_statue=Standbeeld;
+  decor_small_fountain=Kleine fontijn;
+  decor_big_fountain=Grote fontijn;
+  decor_path=Pad;
+  decor_entrance=Ingang;
+  decor_small_structure=Kleinbouwwerk;
+
+  laborer=Arbeiders;
+  craftsman=Vakmensen;
+  tradesman=Handelaren;
+
+  service_water=Water;
+  service_market=Markt;
+  service_worship=Aanbidding;
+  service_bar=Bar;
+  service_school=School;
+
+  filter_bright=Helder;
+  filter_vignette=Vignet;
+  filter_vintage=Vintage;
+
+  terrain_grid=Raster;
+  terrain_default=Standaard;
+  terrain_europe=Europa;
+  rules_default=Standaard;
+  rules_unlocked=Alles vrijgespeeld;
+
+  b_3way=3 richtingen;
+  b_4way=4 richtingen;
+  b_station=Station;
+
+  scenario_straight=Rechtdoor;
+  scenario_diverge=Afbuigen;
+  scenario_cross=Kruis;
+  scenario_roundabout=Rotonde;
+  scenario_blend=Mengsel;
+  scenario_flip=Keren;
+  scenario_somewhere=Ergens;
+  scenario_tjunction=T-Splitsing;
+  scenario_line=Lijn;
+  scenario_priority=Prioriteit;
+  scenario_central=Centraal;
+  scenario_cloverfield=Klaverblad;
+  scenario_favorite=Favoriet;
+  scenario_one_way=Eenrichtingsweg;
+  scenario_composite=Samengesteld;
+  scenario_star=Ster;
+  scenario_exchange=Wissel;
+  scenario_highway=Snelweg;
+  scenario_heavy=Zwaar verkeer;
+  scenario_challenge=Uitdaging {id};
+}
+
+Achievements
+{
+  unlocked=Prestatie behaald;
+
+  ach_demo=Meester van de demo;
+  ach_demo_info=Demo inhoud compleet.;
+  ach_tutorial=Gekwalificeerd;
+  ach_tutorial_info=Voltooi alle tutorials.;
+  ach_village=Dorp;
+  ach_village_info=Eerste dorp gesticht.;
+  ach_town=Stad;
+  ach_town_info=Eerste stad gesticht.;
+  ach_the_town=Één stad;
+  ach_the_town_info=Een stad gesticht zonder andere nederzettingen.;
+  ach_settlement=Nederzetting (id);
+  ach_settlement_info=Een nederzetting met een populatie van {count}.;
+  ach_colony_1=De kolonie;
+  ach_colony_1_info=Een tweede nederzetting in de kolonie.;
+  ach_colony_2=Uitbreiding;
+  ach_colony_2_info=Drie nederzettingen gesticht met elk tenminste 1000 inwonders.;
+  ach_workforce=Arbeidskracht;
+  ach_workforce_info=Zet arbeiders aan het werk.;
+  ach_steam=Stoom;
+  ach_steam_info=Maak je eerste stoom trein.;
+  ach_diesel=Diesel;
+  ach_diesel_info=Maak je eerste dieseltrein;
+  ach_spud=Aardappel;
+  ach_spud_info=Een mens is geen aardappel.;
+  ach_knowledge=Kennis;
+  ach_knowledge_info=Meer treinen boeken..;
+  ach_bones=Sterke Botten;
+  ach_bones_info=Het is bijna bewezen dat melk goed is voor de botten.;
+  ach_fancy=Fraai;
+  ach_fancy_info=Behaal 20 aantrekkelijkheid in een nederzetting.;
+  ach_over=Mijlpaal;
+  ach_over_info=Maak een brug over het spoor.;
+  ach_big=Is het groot genoeg?;
+  ach_big_info=Maak een 128x128 kaart.;
+  ach_trains=Treinen {id};
+  ach_trains_info=Bezit {count} treinen.;
+  ach_goods={goods} {id};
+  ach_goods_info=Produceer {count} {goods}/min.;
+  ach_pop_1={id} inwoners;
+  ach_pop_1_info=Bereik een inwonersaantal van {count}.;
+  ach_crash=Een kras;
+  ach_crash_info=Heb een botsing.;
+  ach_tracks=De spoorbouwmachine.;
+  ach_tracks_info=Bezit 5000 stukken rails.;
+  ach_scenario=Scenario {id};
+  ach_scenario_info=Verkrijg {count} sterren door bouwen in scenarios.;
+
+  upkeep=Activeer onderhoud. Jouw bouwwerken en treinen verbruiken hierdoor grondstoffen.;
+}
+
+Descriptions
+{
+  service_water=Bied drinkwater;
+  service_market=Bied inwoners mogelijkheid tot handel.;
+  service_worship=Bied inwoners mogelijkheid om de Grote Trein te aanbidden.;
+  service_bar=Bied inwoners de mogelijk om te drinken en plezier te hebben.;
+  service_school=Bied inwoners kennis over treinen.;
+
+  wood=Gebruik hout vanuit de bomenkwekerij om bruikbar timmerhout te maken. Het is een veelzijdig bouwmateriaal wat gebruikt kan worden in veel bouwwerken.;
+  coal=Brandbare zwarte steen die als brandstof voor treinen gebruikt kan worden. Zolang de trein er toegang toe heeft zal het automatisch bijtanken.;
+  clothes=Katoenkleding die bewoners warm houd, passend gekleed en gelukkig, voor zowel werk als reizen.;
+  fish=Favoriet voedel onder de inwoners. Vis wordt gevangen bij de vissershaven.;
+  potatoes=Ondergrondse knollen met veel zetmeel. Bewoners gebruiken ze voor veel recepten.;
+  iron_ore=IJzererts zijn gesteenten en mineralen waaruit ijzer kan worden gewonnen en gebruikt kan worden als grondstof in de economie.;
+  steel=Staal is een legering gemaakt van ijzer. Het is een zeer sterk en breukvast materiaal.;
+  stone=Grondstof uit mineralen. Steenbewerkers kunnen deze steen gebruiken om natuursteen te produceren.;
+  tools=Gereedschap helpt arbeiders om hun werk uit te voeren, waardoor ze meer kunnen produceren in minder tijd.;
+  cut_stone=Steen die in gladde, baksteenvormige blokken is gehouwen. Het wordt geproduceerd door steenbewerkers en kan worden gebruikt om geavanceerde gebouwen te maken.;
+  cotton=Zachte, pluizige vezels geoogst van planten. Kledingbedrijven gebruiken ze om kleding te maken.;
+  wheat=Een graankorrel gekweekt voor zaden. Het maakt de productie van brood mogelijk.;
+  bread=Een product vers bereid door bakkers uit tarwe voor de bewoners.;
+  clay=Een aards, keramisch materiaal. Het is zacht en kneedbaar als het nat is en hardt uit als het gedroogd en gebakken wordt. Het kan worden gebruikt om stenen te maken.;
+  bricks=Rechthoekige blokken gemaakt van klei. In de steenovens worden deze veerkrachtige bouwmaterialen geproduceerd.;
+  hops=Een bloem die kan worden gebruikt om bier te brouwen en die de drank zijn aroma en schuimige smaak geeft. Het kan worden gemaakt in brouwerijen.;
+  beer=Een bekende en populaire alcoholische drank gemaakt van hop. Het smaakt vooral lekker na een lange werkdag.;
+  books=Geschreven werk in verschillende genres, van literaire klassiekers tot academische studies. Ze zijn een bron van waardevolle informatie.;
+  cheese=Een gerecht op basis van melk. Het komt in een verscheidenheid aan smaken, texturen en aroma's. Het wordt gemaakt in kaasfabrieken.;
+  meat=Voedsel vanuit de veehouderijen. Het biedt bewoners een betrouwbare bron van eiwitten.;
+  crude_oil=Een geelzwarte vloeistof die kan worden verwerkt tot allerlei brandstoffen en chemicaliën. Het zorgt dat de treinen blijven rijden.;
+  diesel=Een brandbare vloeibare brandstof die dieselmotoren aandrijft.;
+  milk=Voedzaam drankje gemaakt in de zuivelfabriek. Het wordt gebruikt bij de productie van zuivelproducten en geeft bewoners sterke botten.;
+  paper=Dunne lagen gemaakt van houtpulp. Boekhandels gebruiken ze om boeken te produceren.;
+
+  coal_mine=Mijnen gebouwd op steenkoolafzettingen. Kolenmijnen produceren steenkool die wordt gebruikt om treinen van brandstof te voorzien.;
+  iron_mine=Mijnen gebouwd op ijzerafzettingen. IJzer wordt gewonnen uit ijzermijnen, waaruit vervolgens staal wordt gemaakt.;
+  sawmill=Een productiefaciliteit die bomen verwerkt tot bruikbaar hout. Het timmerhout wordt gebruikt in gebouwen en constructies en gebruikt voor het onderhoud ervan.;
+  sawmill_plantation=Een stuk land dat wordt gebruikt voor het kweken van bomen. Zagerijen kunnen geen werk doen zonder bomen.;
+  potato_farm=Boerderijen gespecialiseerd in het oogsten van aardappelen. Aardappelboerderijen hebben aardappelvelden nodig en ze moeten met dorpen worden verbonden om de bewoners van voedsel te voorzien.;
+  potato_field=Een stuk land dat wordt gebruikt om voedzame aardappelen te verbouwen. Aardappelen zijn een belangrijk voedingsmiddel voor de bewoners.;
+  quarry=Grote uitgravingen gebouwd op bergwanden om rotsen te ontginnen. Stenen moeten in de Steenfabriek worden verwerkt voordat ze kunnen worden gebruikt.;
+  cotton_plantation=Boerderijen die gespecialiseerd zijn in het oogsten van katoen. Katoen wordt gebruikt in kledingwinkels.;
+  cotton_field=Een stuk land waar pluizig, zacht katoen werd verbouwd. Kledingwinkels kunnen niets produceren zonder katoen.;
+  wheat_farm=Een stuk land waar rijen felgele tarwe worden verbouwd. Zonder tarwe kunnen bakkerijen niets produceren.;
+  clay_pit=Mijnen gebouwd in de buurt van kleiafzettingen. Kleiputten produceren klei die in een steenoven kan worden verwerkt tot bakstenen.;
+  smelter=Een fabriek die erts verwarmt om metalen in hun puurste vorm te winnen. Dit proces is een van de mogelijke manieren om metaal te winnen.;
+  smelter_kiln_expansion=Een oven die ijzererts verhit om het metaal er uit te halen.;
+  steel_mill=Een industriële fabriek voor het fabriceren van staal.;
+  brickworks=Een productiefaciliteit die van klei bakstenen maakt. Het vereist een droogruimte en een oven om te werken.;
+  brick_storage_expansion=Een bouwwerk dat vers gevormde klei droogt ter voorbereiding op het bakken in de oven.;
+  brick_kiln_expansion=Een oven die klei tot bakstenen maakt. Het vereist een droogveld om te kunnen werken.;
+  hop_farm=Boerderijen die gespecialiseerd zijn in het verbouwen van hop. Brouwerijen gebruiken hop om bier te maken.;
+  hop_field=Akkers die gebruikt worden om hop te verbouwen. Hop is een van de belangrijkste ingrediënten bij de productie van bier.;
+  cattle_farm=Boerderijen gespecialiseerd in veeteelt. Ze zorgen voor vlees dat de inwoners van voedsel voorziet. De boerderijen hebben tarwe nodig om het vee te voeren.;
+  cattle_field=Een stuk land dat wordt gebruikt voor vee. Zonder vee kunnen veehouderijen en melkveehouderijen niets produceren.;
+  paper_mill=Een fabriek waar papier wordt geproduceerd. Het vereist een voorraad hout om te werken.;
+  paper_mill_processing=Een machine die hout snijdt en versnippert tot kleine houtsnippers. Houtsnippers kunnen worden verwerkt tot houtpulp.;
+  paper_mill_pulp=Een machine die houtspaanders vermaalt tot dikke vezels. Het vereist een aangesloten houtverwerker om te werken.;
+  paper_mill_production=Een machine die dikke vezels gebruikt om papier te maken. Het vereist een aangesloten pulpfabriek om te werken.;
+  pumpjack=Een pomp die aardolie uit de grond haalt. Ruwe olie kan in de olieraffinaderij worden verwerkt tot diesel of andere brandstoffen.;
+  oil_refinery=Een fabriek die olie verwerkt tot diesel en andere brandstoffen. Het produceert brandstof voor treinen en vereist een oliekraker.;
+  oil_boiler=Een machine die stoom produceert. Het drijft de apparaten aan en regelt de productietemperatuur.;
+  oil_cracker=Een machine die aardolie verwarmt en onder druk zet om het om te zetten in diesel. Het heeft een verwarmingsfunctie nodig.;
+  dairy_farm=Een boerderij de melk produceert die kan worden gebruikt om zuivelproducten te maken. Er is tarwe nodig om het vee te voeren.;
+  cheese_factory=Een fabriek die kaas produceert. Er is een kaasfabriek voor nodig om te kunnen werken.;
+  cheese_production_plant=Een structuur die melk verwerkt tot kaas. Opslag is noodzakelijk voor gebruik.;
+
+  laborers=Arbeiders zijn werknemers die verschillende taken kunnen uitvoeren en ook eenvoudige goederen kunnen produceren. Ze hebben minder behoeften dan ervaren werknemers.;
+  craftsmen=Vakmensen zijn ervaren arbeiders. Ze zijn trots op hun werk en produceren geavanceerde goederen. Ze hebben meer behoeften, maar betalen hogere belastingen.;
+
+  village_hall=Het dorpshuis. De meeste gebouwen zijn er mee verbonden.;
+  town_hall=Een verbeterd dorpshuis. Het Stadhuis biedt meer mogelijkheden voor gebouwen.;
+  laborer_residential=Huisvesting voor arbeiders. Werknemers hebben huisvesting en toegang tot goederen nodig om nieuwe bewoners aan te trekken.;
+  craftsmen_residential=Accommodatie voor vakmensen. Het bouwen van woningen voor vakmensen moedigt andere gevorderde arbeiders aan om er ook in te trekken. Hierdoor kunnen arbeiders geavanceerde goederen maken.;
+  dirt_road=Wegen verbinden gebouwen, diensten en faciliteiten, waardoor bewoners binnen de nederzetting kunnen reizen.;
+  fishing_dock=Een visserijproductiefaciliteit gebouwd aan de kust. Bewoners hebben toegang nodig tot vissershavens om voedsel te krijgen.;
+  market=Een dienstgebouw dat bewoners een ontmoetingsplek biedt voor handel. Zonder deze voorziening kunnen de meeste dorpen niet functioneren.;
+  water_tower=Een toren met een enorme watertank. Het bevat een grote hoeveelheid water en biedt bewoners gemakkelijke toegang tot een waterreservoir.;
+  stoneworks=Een productiefaciliteit die steen verwerkt tot handwerksteen. Natuursteen is nodig voor de productie van geavanceerde constructies.;
+  house_of_worship=Een kerk voor volgelingen van de Grote Trein. De Grote Trein staat symbool voor verbindingen en dat treinen meer zijn dan alleen een vervoermiddel.;
+  clothes_shop=Een servicegebouw dat bewoners voorziet van kleding. De kleding is gemaakt van katoen.;
+  bakery=Een servicegebouw dat versgebakken brood produceert voor de bewoners. Het vereist een voorraad tarwe om te werken.;
+  tools_shop=Een productiefaciliteit die gereedschap van staal produceert, die kan worden gebruikt om de productiviteit te verhogen.;
+  storage=Een gebied om goederen op te slaan voor productie. Opslagunits hebben een beperkt assortiment en kunnen slechts een beperkt aantal productielocaties bevoorraden.;
+  brewery=Een productiefaciliteit die hop brouwt tot bier dat aan een bar kan worden geleverd.;
+  bar=Een servicegebouw dat bewoners voorziet van bier en gezelligheid na werktijd en vrije dagen.;
+  bookstore=Een servicegebouw dat papier bindt en boeken verkoopt. Het vereist een voorraad papier om te werken en voorziet scholen van boeken.;
+  school=Een dienstverlenend gebouw dat bewoners van alle leeftijden een plek biedt om te leren, als er maar boeken zijn om uit te leren.;
+
+  rails=Spoorwegen die de wereld met elkaar verbinden en waarmee treinen mensen en goederen kunnen vervoeren. Seinen kunnen worden gebruikt om te bepalen hoe treinen ze gebruiken.;
+  bridge_arch=Een brug waarmee treinen watermassa's of loodrechte rails kunnen oversteken.;
+  bridge_trestle=Een brug waarmee treinen het water kunnen oversteken.;
+  bridge_beam=Een brug waarmee treinen over spoor het water kunnen oversteken.;
+  rail_signal=Seinen verdelen rails in seingestuurde blokken. Jij bepaalt welke treinen een blok gebruiken en in welke richting ze gaan.;
+  chain_signal=Kettingseinen zorgen ervoor dat een trein pas een blok binnenrijdt als hij er weer uit kan. Ze voorkomen dat treinen elkaar blokkeren.;
+  requirement_signal=Vereisseinen laten alleen treinen door die aan een bepaalde eis voldoen. Dit kan lengte, lading of snelheid zijn.;
+
+  locomotive_steam=Stoomlocomotief kookt water tot stoom om aandrijfkracht op te wekken. Verbrandt kolen.;
+  locomotive_diesel=Diesellocomotief aangedreven door een dieselmotor. Maakt gebruik van dieselbrandstof.;
+
+  wagon_coal_tender=Een kolenwagon wordt gebruikt om locomotieven van brandstof te voorzien. Je kunt er geen goederen in vervoeren.;
+  wagon_passenger=Een wagon die werd gebruikt om arbeiders naar het werk te vervoeren en reizigers tussen nederzettingen.;
+  wagon_flat=Een wagon met een open laadruimte voor het vervoer van grote goederen.;
+  wagon_box=Een gesloten wagon voor het vervoeren van bulkgoederen.;
+  wagon_gondola=Een open wagon voor het vervoer van losse bulkgoederen.;
+  wagon_tank=Een wagen voor het vervoeren van vloeibare goederen.;
+
+  station=Een bouwwerk voor treinen om arbeiders, reizigers en goedheid te laden en te lossen. Treinstations hebben perrons met parallelle rails nodig gebruikt te kunnen worden.;
+  station_platform=Perrons verlengen een station en laten zo langere treinen toe. Ze hebben spoor nodig die parallel lopen aan het te bedienen platform.;
+  small_station_coal_storage=Een opslagplaats voor kolen. Treinen gebruiken dit om te tanken.;
+  train_depot=Het Treindepot wordt gebruikt om treinen te bouwen, verkopen en repareren. De maximale treinlengte is afhankelijk van de lengte van het depot.;
+  bridge=Constructies die het reizen over water en rails mogelijk maken.;
+  warehouse_storage_small=Een klein gebouw voor opslag. Het kan worden gebruikt om kleine hoeveelheden eenvoudige goederen op te slaan.;
+  warehouse_storage_medium=Een middelgroot gebouw dat dienst doet als magazijn. Hier kan een grotere en meer gevarieerde hoeveelheid materialen worden opgeslagen.;
+  distribution_center=Een bouwwerk dat meerdere productiefaciliteiten tegelijk kan beheren. Een treinstation kan deze structuur gebruiken voor laadactiviteiten.;
+
+  warehouse=Het magazijn slaat bouwmaterialen en goederen op. Er kan maar één magazijn zijn. Vernietig de bestaande hal om een nieuwe te bouwen.;
+
+  setting_noise_scale=Ruisschaal;
+  setting_noise_scale_info=Ruis bepaald hoeveel detail een wereld heeft. Meer ruis betekent minder details op kusten en bergketens.;
+  setting_noise_height=Ruis hoogte;
+  setting_noise_height_info=De hoogte van de ruis bepaalt hoe ver de ruis het terrein binnendringt. Hoe kleiner de waarde, hoe meer land er wordt getoond, hoe groter de waarde, hoe meer water er wordt getoond.;
+  setting_noise_factor=Ruisfactor;
+  setting_noise_factor_info=De ruisfactor bepaalt hoeveel ruis de terreindetails beïnvloedt.;
+  setting_biome_scale=Biomenschaal;
+  setting_biome_scale_info=Biomen zijn verschillende soorten terrein die over de hele wereld voorkomen. Een hogere waarde betekent grotere woestijn- en bosgebieden.;
+  setting_biome_offset=Bioom-offset;
+}
+
+Other
+{
+  not_translated= - ontbrekende vertaling;
+
+  // Debug menu
+  debug=Debug;
+  debug_world=Wereld;
+  debug_regenerate=Hergenereren;
+  debug_biomes=Biomen;
+  debug_water=Water;
+  debug_clouds=Wolken;
+  debug_drawing=Tekenen;
+  debug_atlases=Atlas;
+  debug_collision=Botsing;
+  debug_walking_nodes=Lopende knooppunten;
+  debug_fps=FPS;
+}
+
+Unlocking
+{
+  unlock_condition=Ontgrendel conditie;
+  population=Bereik een inwonersaantal van {amount} {name};
+  population_total=Bereik een totaal aantal inwoners van {amount};
+  build=Bouw {amount}x {name};
+  goods_made=Produceer {amount}x {name};
+  goods_made_per_hour=Produceer {amount}x {name}/uur;
+  goods_made_per_minute=Produceer {amount}x {name}/minuut;
+
+  population_short=Bereik een inwoners aantal van {name};
+  population_total_short=Bereik het totaal aantal inwoners;
+  build_short=Bouw {name};
+  goods_made_short=Produceer {name};
+  goods_made_per_hour_short=Produceeer {name}/uur;
+  goods_made_per_minute_short=Produceer {name}/minuut;
+
+  unlocks=Vrij te spelen;
+  unlocked=Vrijgespeeld;
+  gifts=Beloningen;
+  wealth_capacity=Capaciteit;
+  unlocks_next_task=Ontgrendelt de volgende taak;
+  unlock=Ontgrendelen;
+}
+
+General
+{
+  info=Info;
+  help=Hulp;
+  buildings=Gebouwen;
+  electricity=Elektriciteit;
+  stations_connected=Stations {count}x;
+  no_stations_connected=Geen stations binnen bereik;
+  storage_connected=Opslag x{count};
+  no_storage_connected=Geen opslag in de buurt;
+  locate=Localiseren;
+  close=Sluiten;
+  clone=Klonen;
+  fill=Vullen;
+  effects=Effecten;
+  settlement=Nederzetting;
+  show_in_explorer=Weergeven in verkenner;
+
+  upkeep_per_min=Onderhoud/minuut;
+  coins_cost=Munten;
+  coins_cost_info=Munten staan voor uw rijkdom. Je hebt ze nodig om aankopen te doen.;
+
+  in_storage=In opslag;
+  total=Totaal;
+  batch_time=Laadtijd;
+  time_left=Resterende tijd;
+  upgrade_to=Uitbreiden naar {name};
+  requirements=Vereisten;
+  requires=Vereist;
+  specialization=Specialisatie;
+  protect=Bescherm;
+  protect_info=Beperkt de export van goederen tot een bepaald aantal.;
+
+  file_name=Bestandsnaam;
+  folder_name=Map naam;
+  author=Auteur;
+
+  search=Zoeken;
+  accept=Accepteren;
+  confirm=Bevestigen;
+  copy=Kopieren;
+  paste=Plakken;
+  disable=Uitschakelen;
+  enable=Inschakelen;
+  cancel=Annuleren;
+  edit=Bewerken;
+  sell=Verkopen;
+  move_down=Naar beneden;
+  move_up=Naar boven;
+  remove=Verwijderen;
+  flip=Draaien;
+  duplicate=Dupliceren;
+  go_back=Terug;
+  load=Laden;
+  save=Opslaan;
+  override=Overschrijven;
+  time_played=Speeltijd;
+  saving=Opslaan;
+  saved=Opgeslagen;
+  try_again=Opnieuw proberen;
+
+  folder_new=Maak een map;
+
+  sort=Sorteren;
+  by_name=Op naam;
+  by_date=Op datum;
+
+  unit_second=sec;
+  unit_minute=min;
+  unit_hour=uur;
+  km/h= km/u;
+  km= km;
+  m= m;
+  t= t;
+  hp= hp;
+  clear=Legen;
+  kw=kW;
+  mw=MW;
+  gw=GW;
+  tw=TW;
+  k_thousand=K;
+  m_million=M;
+  score=Score;
+
+  balance=Balans;
+  income=Inkomsten;
+  income_taxes={type} Belasting;
+
+  fuel_storage=Brandstofopslag;
+  amount=Hoeveelheid;
+  capacity=Capaciteit;
+  base=Basis;
+  source=Bron;
+  exports=Export;
+  imports=Import;
+  upkeep=Onderhoud;
+  upkeep_pm=Onderhoud/minuut;
+  day=Dag;
+  range=Bereik;
+  range_info=Bereik beperkt hoe ver (in tegels) deze structuur kan worden uitgebreid.;
+  range_info_city=Naast het standaardbereik van {range}-tegels, neemt het bereik toe met 1 tegel per {amount} inwoners.;
+
+  highscore=Topscore;
+  not_efficient=Niet efficiënt!;
+  congratulations=Gefeliciteerd!;
+  no_stars=Je hebt geen sterren gescoord. Je hebt meer treinen nodig voor dit scenario.;
+  1_star=Je hebt een ster gescoord. Het werkt maar kan beter!;
+  2_stars=Je hebt 2 sterren gescoord! Alleen een efficiente ontwerp doet het zo goed.;
+  3_stars=Meesterlijk, je hebt 3 sterren gescoord!;
+
+  options_info=Je kunt met de rechtermuisknop meer opties bekijken.;
+  delete=Verwijderen;
+  delete_save={name} verwijderen;
+
+  error_saving=Kan niet opslaan;
+  error_saving_info=Bestand {file} kan niet worden opgeslagen.<!brk>Zorg dat je voldoende schijfruimte vrij hebt.;
+}
+
+BuildMode
+{
+  build_list=Bouwlijst;
+  empty_list=Lijst is leeg;
+  locked=Vergrendeld;
+  new=Nieuw;
+
+  expansion=Uitbreiding;
+  environment=Omgeving;
+  industries=Industrieën;
+  logistics=Logistiek;
+
+  expansion_info=De meeste bouwwerken kunnen uitgebreid en verbeterd worden.;
+  environment_info=Verfraai je omgeving.;
+  industries_info=Bouw een nieuw dorp of productiefaciliteit.;
+  logistics_info=Beheer je spoornet.;
+
+  expansion_select=Selecteer een bouwwerk wat je wilt uitbreiden.;
+
+  destroy=Vernietigen;
+  destroy_info=Wil je al je spoorwegen vernietigen?;
+  destroy_structure={name} vernietigen?;
+
+  remove_mode=Verwijder bouwwerken;
+  remove_mode_rails=Spoor verwijderen;
+  remove_mode_signals=Seinen verwijderen;
+  remove_trains=Treinen verwijderen;
+  upgrade=Verbeteren;
+  upgrade_info=Je kunt het dorpshuis, woonhuizen en wegen verbeteren.<!brk>Deze verbeteringen hebben benodigdheden, deze worden zichtbaar als de structuur wordt geselecteerd in het contextmenu.;
+  blueprint=Bouwtekeningmodus;
+  blueprint_new=Maak een bouwplan;
+  blueprint_name=Naam van het bouwplan;
+  show_blueprint=;
+  override_question=Map overschrijven?;
+  blueprint_folder_override=Wil je {name} overschrijven? Hierdoor zal alles verwijdert worden in deze map.;
+  blueprint_info=Je kunt reeds gebouwd spoor, seinen en stations repliceren.<!brk>Druk op Ctrl + C om te kopieren naar het klembord of Ctrl + V om te plakken.;
+
+  lmb_to_place=Linkermuisknop om te plaatsen;
+  lmb_to_remove=Linkermuisknop om te verwijderen;
+  lmb_to_drag=Linkermuisknop om te slepen;
+  rmb_to_cancel=Rechtermuisknop om te annuleren;
+  ctrl_for_precise=Houd Ctrl ingedrukt voor precieze besturing;
+  ctrl_for_anywhere=Houd Ctrl ingedrukt om vrij te kunnen plaatsen;
+  ctrl_select_chunk=Houd Ctrl ingedrukt om een deel te selecteren;
+  ctrl_until_signal=houd Ctrl ingedrukt om te stoppen bij het volgende sein;
+  ctrl_build_multiple=Houd Ctrl ingedrukt om meerdere bouwwerken te maken;
+  alt_for_straight=Houd Alt ingedrukt om recht spoor te maken;
+  toggle_build_remove=Druk op {key} om de verwijderstand in of uit te schakelen;
+  toggle_build_remove_general=Druk op {key} om de algemene verwijder modus te openen.;
+  flip_blueprint=Druk op {key} om de bouwtekening te draaien;
+  rotate=Druk op {left} of {right} om te draaien;
+  variation=Druk op {key} om de variatie aan te passen;
+  scrap_blueprint=Druk op {key} om het bouwplan te verwijderen;
+  save_blueprint=Druk op {key} om het bouwplan op te slaan;
+  toggle_build_ui=Druk op {key} om dit venster te schakelen;
+
+  cost_upkeep=Onderhoud;
+  cost_sell=Verkoopprijs;
+  produces=Produceert;
+  consumes=Verbruikt;
+  workforce=Arbeiders;
+  batch_time=Tijd om te laden {time};
+  bridge_length=Afstand kan tussen {min} en {max} tegels zijn;
+  movement_range=Bewegingsruimte {range}%;
+  movement_range_tiles=Wegbereik is {range} tegels;
+  max_build=Max. {amount} kan er gebouwd worden;
+
+  batch_time_change=Laadtijd verandering vanaf basis {amount};
+  rest_speed_change=Rustsnelheid vanaf basis {amount};
+  capacity_change=Capaciteit;
+  production_change=Productie;
+  consumption_change=Verbruik;
+  workforce_change=Arbeiders;
+  signals_space=Tegels tussen signalen: {aount};
+
+
+  tip_too_close={name} is te dichtbij.;
+  tip_no_object=Ga met de muis naar het object wat je wilt verwijderen.;
+  tip_no_signal=Ga met de muis naar het sein wat je wilt verwijderen.;
+  tip_no_rail_remove=Ga met de muis naar het spoor wat je wilt verwijderen.;
+  tip_bridge_over_signal=Een brug kan niet over een sein gebouwd worden.;
+  tip_drag_to_build=Houd de linkermuisknop ingedrukt om te starten met bouwen.;
+  tip_ramp_water=Alle 3 de brughellingen moeten op het land zijn.;
+  tip_no_path=Er kan geen weg gevonden worden.;
+  tip_no_rail=Om seinen te plaatsen is een spoor of brug nodig. Seinen kunnen niet onder een brug geplaatst worden.;
+  tip_single_rail=Seinen onmogelijk bij spoorwegkruispunten.;
+  tip_rail_two_signals=Een spoor kan maar twee seinen hebben.;
+  tip_signal_bridge=Dit sein kan niet op een spoor geplaatst worden.;
+  tip_station_attach=Verbind het station door het naast zijn doel te plaatsen.;
+  tip_station_road=Inwoners kunnen dit station niet bereiken vanaf de weg.;
+  tip_mountain=Bouwen in een berg is onmogelijk.;
+  tip_water=Bouwen in het water is onmogelijk.;
+}
+
+MainMenu
+{
+  new_world=Nieuwe wereld;
+  new_game=Nieuw spel;
+  scenarios=Scenarios;
+  save_game=Spel opslaan;
+  load_game=Laad spel;
+  save_name=Opslag naam;
+  settings=Instellingen;
+  credits=Credits;
+  exit=Terug naar het hoofdmenu;
+  exit_game=Terug naar Windows;
+  return=Terug;
+
+  save_paris=Parijs;
+
+  tutorial=Zelfstudie;
+  tutorial_basics=Basis;
+  tutorial_village=Dorp bouwen;
+  tutorial_signals=Seinen;
+  tutorial_expansion=Uitbreidingen;
+
+  // In game main menu
+  continue=Doorgaan;
+  restart=Herstart wereld;
+  best_attempt=Laad de beste poging;
+
+  water_info=Verander de hoeveelheid water. Wat is belangrijk voor dorpen maar om het spel makkelijker te maken kan het verlaagd worden. Omzetten naar land is niet mogelijk.;
+  mountains_info=Verander de hoeveelheid bergen. Meer bergen zullen een grotere uitdaging geven. Bergen kunnen niet verwijdert worden.;
+  upkeep_info=Verander hoeveel onderhoud bouwwerken nodig hebben wat het spel makkelijker maakt.;
+  cost_buy_info=Verander hoe duur het is om uit te breiden.;
+  storage_info=Verander hoeveel goederen er overal kunnen worden opgeslagen (behalve van treinen).;
+  taxes_info=Verander hoeveel belasting mensen moeten betalen.;
+  deposits_info=Verander hoeveel afzettingen er zijn in de wereld.;
+
+  world_generation=Wereld genereren;
+  game_rules=Regels;
+  generator=Generator;
+  generate=Genereer;
+  seed=Start waarde;
+  water=Water;
+  ground=Grond;
+  mountains=Bergen;
+
+  tiny=Miniscuul;
+  small=Klein;
+  average=Gemiddeld;
+  big=Groot;
+  huge=Enorm;
+
+  preset=Voorinstelling;
+  storage=Opslag;
+
+  preset_sandbox=Zandbak;
+  preset_easy=Makkelijk;
+  preset_standard=Standaard;
+  preset_custom=Handmatig;
+
+  World=Wereld;
+  Difficulty=Moeilijkheid;
+
+  hard_map=Moeilijke kaart;
+  problem_land=Er is niet genoeg land! Het zal lastig of onmogelijk zijn om uit te breiden.;
+  problem_mountains=Er zijn teveel bergen! Onthoud dat je niet door bergen kan.;
+
+  email_copied=E-mail is gekopieerd;
+  save_question=Spel opslaan?;
+  unsaved=Je spel is niet opgeslagen! Enige voortgang zal verloren raken.;
+  override_question=Spel overschrijven?;
+  overrides={name} zal worden overschreven.;
+  save_restart=Opslaan en herstarten;
+  save_exit=Opslaan en afsluiten;
+  save_load=Opslaan en laden;
+
+  changelog=Wijzigingen;
+  roadmap=Routekaart;
+  mods=Mods;
+
+  achievements_enabled=Mijlpalen ingeschakeld;
+  achievements_partial=Sommige mijlpalen zijn uitgeschakeld;
+  achievements_disabled=Mijlpalen uitgeschakeld;
+}
+
+Settings
+{
+  General=ALGEMEEN;
+  Graphics=GRAFISCH;
+  Audio=AUDIO;
+  Controls=BEDIENINGSELEMENTEN;
+
+  default=Standaard;
+  revert=Herstellen;
+  apply=Toepassen;
+  apply_settings=Instellingen toepassen?;
+  restart=Sommige wijzigingen vereisen dat je het spel herstart.;
+
+  language=Taal;
+  run_in_background=Uitvoeren op de achtergrond;
+  run_in_background_info=Indien uitgeschakeld zal het spel bevriezen als het geen focus heeft.;
+  ui_zoom=Schaal gebruikersinterface;
+  ui_zoom_info=De schaal van de gebruikersinterface.;
+  map_ui_zoom=Kaart UI schaak;
+  compact_ui=Compacte UI;
+  compact_ui_info=Schakel grotere teksten in met compacte UI voor kleinere schermen.;
+  map_ui_zoom_info=De schaal van kaart pictogrammen.;
+  map_station_names=Stationsnamen op kaart;
+  map_station_names_info=Verder stationspictogrammen naar namen in de kaart modus.;
+  map_city_names=Nederzettingsnamen op kaart;
+  map_city_names_info=Verander nederzetting pictogrammen naar namen in de kaartmodus.;
+  custom_cursor=Gebruikersgedefineerde cursor;
+  mouse_ui_zoom=Gebruikersgedefineerde cursor grootte;
+  contain_mouse=Vergrendel cursor in venster;
+  mouse_sensitivity=Gevoeligheid van muis;
+  mouse_sensitivity_info=Gevoeligheid van de muis bij schuiven.;
+  problems=Problemen;
+  problems_info=Veranderingen in spel probleem pictogram zichtbaarheid.;
+  advisor=Adviseur;
+  advisor_info=De adviseur is een hulpsysteem dat helpt met elk nieuw spel.;
+  mouse_pan=Schuiven met muis;
+  mouse_pan_info=Met muis de wereld navigeren.;
+  autosaves=Automatisch opslaan;
+  autosaves_interval=Interval voor automatisch opslaan;
+
+  1_minute=1 minuut;
+  5_minutes=5 minuten;
+  10_minutes=10 minuten;
+  30_minutes=30 minuten;
+  60_minutes=60 minuten;
+
+  fullscreen=Volledig scherm;
+  resolution=Resolutie;
+  borderless=Zonder randen;
+  dynamic_sprites=Dynamisch sprites laden;
+  dynamic_sprites_info=Het laden van sprites tijdens het spelen. Dit verkort de laadtijd en VRAM gebruik.;
+  clouds=Wolken;
+  blur=Wazig;
+  blur_info=Schakel het kantelschuif effect.;
+  vsync=V-Sync;
+  vsync_info=Voorkom scheuren van het beeld.;
+  particles=Particles;
+  particles_info=Schakel particles met lage prestatie impact.;
+  foliage=Gebladerte;
+  foliage_info=Schakel gebladerte met lage prestatie impact.;
+  people=Mensen;
+  people_info=Schakel zichtbaarheid mensen met een middelmatige prestatitie impact.;
+  filter=Filter;
+  filter_info=Gebruikersgedefineerd filter om de kleuren in het spel te veranderen.;
+  dark_mode=Donkere modus;
+  dark_mode_info=Maak de randen van de kaart donker voor minder vermoeide ogen met weinig licht.;
+  texture_resolution=Texture resolutie;
+  texture_resolution_info=Wijzig de sprite resolutie met een grote VRAM impact.;
+  texture_compression=Texture compressie;
+  texture_compression_info=Reduceer VRAM gebruik tezamen met sprite fidelity.;
+  map_compression=Kaart compressie;
+  map_compression_info=Comprimeer de kaartafbeelding om de VRAM impact te verminderen.;
+  map_zoom_far=Extra uitzoomen;
+  map_zoom_far_info=Verhoog hoever je kunt uitzoomen voordat je de kaartmodus betreed met een middelmatige performance impact.;
+  shadows=Schaduwen;
+  shadows_info=Schaduwen hebben een grote prestatie impact.;
+  lights=Lampen;
+  lights_info=Lampen hebben een grote impact in de nacht prestaties.;
+  power_saving=Stroombesparen;
+  power_saving_info=Optimaliseer multithreading om het CPU verbruik te verminderen en batterij te sparen.;
+
+  auto=Automatisch;
+
+  volume=Volume;
+  volume_interface=Volume bediening;
+  volume_interface_info=Geluiden vanuit gebruikersinterface knoppen.;
+  ambience=Omgeving;
+  ambience_info=Geluiden uit de wereld.;
+  music=Muziek;
+
+  all=Alles;
+  important=Belangrijk;
+
+  reset=Herstellen;
+  on=Aan;
+  off=Uit;
+  partial=Deels;
+  full=Volledig;
+
+  low=Laag;
+  medium=Middel;
+  high=Hoog;
+
+  grab=Grijpen;
+  grab_inverted=Omgekeerd grijpen;
+  slide=Glijden;
+  slide_inverted=Omgekeerd glijden;
+
+  assigned_key={key} is al toegewezen aan {name};
+  reserved_key={key} is gereserveerd;
+
+  press_any_key=Druk op een toets;
+
+  Navigation_Left=Naar links bewegen;
+  Navigation_Left_info=Draai de camera naar links.;
+  Navigation_Right=Naar rechts bewegen;
+  Navigation_Right_info=Draai de camera naar rechts;
+  Navigation_Up=Naar boven bewegen;
+  Navigation_Up_info=Beweeg de camera omhoog;
+  Navigation_Down=Naar beneden bewegen;
+  Navigation_Down_info=Draai de camera naar beneden.;
+  Navigation_Rotate_Left=Naar links draaien;
+  Navigation_Rotate_Left_info=Draai de camera naar links met 90 graden.;
+  Navigation_Rotate_Right=Naar rechts draaien;
+  Navigation_Rotate_Right_info=Draai de camera 90 graden naar rechts.;
+  Navigation_Zoom=Herstel zoom;
+  Navigation_Zoom_info=Herstel het camerazoom niveau naar 1:1.;
+  Navigation_ZoomIn=Inzoomen;
+  Navigation_ZoomIn_info=Camera inzoomen;
+  Navigation_ZoomOut=Uitzoomen;
+  Navigation_ZoomOut_info=Uitzoomen met de camera;
+  Navigation_Focus=Focus;
+  Navigation_Focus_info=Focus en volg het geselecteerde object.;
+  Toggle_Pause=Pauze in/uitschakelen;
+  Toggle_Pause_info=Schakel het verstrijken van tijd in/uit.;
+
+  Rotate_Right=Object naar rechts draaien;
+  Rotate_Right_info=Draai het geselecteerde object met 90 graden naar rechts.;
+  Rotate_Left=Object naar links draaien;
+  Rotate_Left_info=Draai het geselecteerde object naar links met 90 graden.;
+  Change_variation=Object variant veranderen;
+  Change_variation_info=Verander de variant van het gekozen object.;
+
+  Toggle_Route=Route omschakelen;
+  Toggle_Route_info=Schakel het trein route beheer venster.;
+  Toggle_Train_Preset=Selecteer treindepot;
+  Toggle_Train_Preset_info=Selecteer het dichtsbijzijne treindepot;
+  Toggle_Upgrade=Uitbreiding schakelen;
+  Toggle_Upgrade_info=Schakel het venster voor uitbreiding in/uit.;
+  Toggle_Progression=Voortgang omschakelen;
+  Toggle_Progression_info=Schakel het spelvoortgansvenster in/uit.;
+  Toggle_Blueprints=Bouwplan in-/uitschakelen;
+  Toggle_Blueprints_info=Schakel het bouwplan venster.;
+  Save_Blueprint=Bouwplan opslaan;
+  Save_Blueprint_info=Sla het bouwplan op.;
+  Toggle_Stats=Schakel statistieken;
+  Toggle_Stats_info=Schakel het spelstatistieken venster.;
+  Console=Schakel console;
+  Console_info=Schakel het spelconsole venster;
+  Select_Warehouse=Pakhuis selecteren;
+
+  Build_Remove_Open=Verwijdermodus openen;
+  Build_Remove_Open_info=Open de bouw modus in verwijdermodus.;
+  Build_Mode_Toggle=Schakel de bouw modus;
+  Build_Mode_Toggle_info=Schakel de bouwmodus in/uit als het geselecteerde object gebouwd kan worden.;
+  Build_View_Toggle=Bouwweergave schakelen;
+  Build_View_Toggle_info=Schakel de bouwmodus weergave tijdens het bouwen in/uit.;
+  Build_UI_Toggle=Bouw gebruikersinterface omschakelen;
+  Build_UI_Toggle_info=Schakel de bouw gebruikersinterface in/uit waar de kosten en sneltoetsen bekeken kunnen worden.;
+  Build_Remove_Toggle=Verwijdermodus omschakelen;
+  Build_Remove_Toggle_info=Schakel tussen verwijder en bouwmodus.;
+  Build_Remove_Toggle_General=Algemene verwijderstand openen;
+  Build_Flip_Blueprint=Bouwplan omdraaien;
+
+  View_Pollution=Gewildheidsweergave omschakelen;
+  View_Pollution_info=Schakel naar de weergave die toont hoe gewild land is voor inwoners.;
+
+  Song_Next=Volgend muzieknummer;
+  Song_Previous=Vorig muzieknummer;
+
+  Quick_Save=Snel opslaan;
+  Quick_Load=Snel laden;
+  Fullscreen=Volledig scherm omschakelen;
+  Selection_Cycle=Doorloop selectie;
+  Selection_Cycle_info=Loop door de verschillende object types heen.;
+  Build_Undo=Ongedaan maken;
+  Build_Undo_info=Ongedaan maken van een bouw of verwijder actie.;
+  Build_Redo=Opnieuw;
+  Build_Redo_info=Herstel ungedaanmaken van een bouw of verwijderactie.;
+
+  Speed_Normal=Normale snelheid;
+  Speed_Fast=4x zo snel;
+  Speed_Faster=16x zo snel;
+
+  Debug_no_Hud=HUD aan/uit;
+  Debug_edit_Mode=Schakel bewerkmodus;
+  Debug_edit_Mode_info=De bewerk stand kan omgeschakeld worden als er valsgespeeld mag worden. Het maakt alle objecten beschikbaar en bruikbaar samen met andere valsspeel acties.;
+}
+
+StationUI
+{
+  not_connected=Niet verbonden;
+  connected_count={structure} {count}x;
+  connected_to=Met {structure} verbonden;
+  connected_to_count=Met {structure} {count}x verbonden;
+  connected_to_general={count}x verbonden;
+
+  traveling_enabled=Reizen geactiveerd;
+  traveling_disabled=Reizen gedeactiveerd;
+  traveling=Reizen;
+  travelers_invalid=Om een station geschikt te maken voor reizen stel dan een route in om reizigers te wisselen.;
+
+  in_range=Totaal in bereik;
+
+  name_duplicates=Namen dupliceren;
+  name_duplicates_info=Er zijn meerdere stations met deze naam. Treinen die opzoek zijn naar hun bestemming kiezen de best bereikbare.;
+
+  connection_info=Stations kunnen alleen goederen en personen vervoeren vanaf verbonden bouwwerken. Een stations zal altijd proberen te verbinden met een nagelegen bouwwerk.;
+  connection_distribution=Distributiecentra kunnen meerdere productiefaciliteiten van hetzelfde type verbinden met een station.;
+  reconnect_info=Om een verbinding te veranderen, klik met de linkermuisknop in het venster en klik daarna op het gewenste gebouw.;
+
+  fuel=Het toevoegen van brandstofopslag maakt het mogelijk om te tanken bij dit station. Treinen kunnen ook tanken vanuit een verbonden gebouw door het station.;
+  fuel_local={name} (lokaal);
+  enable_refuel=Tanken inschakelen;
+  disable_refuel=Tanken uitschakelen;
+}
+
+TrainUI
+{
+  state_braking=Remmen;
+  state_moving=Rijd {speed} km/u;
+  state_waiting=Wachten;
+  state_loading=Inladen;
+  state_unloading=Uitladen;
+  state_swapping=Arbeiders wisselen;
+  state_swapping_travelers=Reizigers wisselen;
+  state_idle=Inactief;
+  state_disabled=Uitgeschakeld;
+  state_disabled_stopping=Stoppen uitgeschakeld;
+  state_no_path=Kan de bestemming niet bereiken;
+  state_collision=Er was een botsing!;
+
+  enable_all=Alles inschakelen;
+  disable_all=Alles uitschakelen;
+  sell_all=Alles verkopen;
+
+  add_filter=Filter toevoegen;
+  add_condition=Wacht conditie toevoegen;
+  condition_complete=Tot het klaar is;
+  condition_wait=Verstreken tijd;
+  condition_wait_select=Voor gepasseerde tijd;
+  condition_wait_until=Tijd;
+  condition_wait_until_select=Voor specifieke tijd;
+  condition_cargo=Lading bij;
+  condition_cargo_full=Voor een volle vracht;
+  condition_cargo_empty=Voor lege vracht;
+  condition_fuel=Bijtaken bij;
+  condition_fuel_full=Voor een volle tank;
+  condition_passengers=Passagiers bij;
+  condition_passengers_full=Voor volle passagierslading;
+  condition_passengers_empty=Voor geen passagiers;
+  condition_rested=Uitgerust bij;
+  condition_rested_full=Voor volledig uitgerustte passagiers;
+  condition_tired_full=Voor volledig vermoeide passagiers;
+  condition_and=En;
+  condition_or=Of;
+  no_conditions=Geen conditities;
+
+  action=Actie;
+  action_pass=Voorbij rijden;
+  action_visit=Bezoeken;
+  action_load=Inladen;
+  action_unload=Uitladen;
+  action_swap=Arbeiders wisselen;
+  action_swap_travelers=Reizigers wisselen;
+  action_pass_station={station} voorbij rijden;
+  action_visit_station=Bezoek {station};
+  action_load_station=Inladen bij {station};
+  action_unload_station=Uitladen bij {station};
+  action_swap_station=Wissel arbeiders bij {station};
+  action_swap_travelers_station=Wissel reizigers bij {station};
+  action_pass_rail=Spoor gebruiken;
+  action_visit_rail=Spoor bezoeken;
+
+  action_pass_help=Rijd zonder stop langs het doel.;
+  action_visit_help=Bezoek bestemming en stop.;
+  action_load_help=Inladen bij bestemming.;
+  action_unload_help=Uitladen bij bestemming.;
+  action_swap_help=Tegelijkertijd inladen en uitladen van arbeiders. Dit is de beste manier om je werknemers te verplaatsen.;
+  action_swap_travelers_help=Tegelijkertijd inladen en uitladen van reizigers. Reizigers stappen in de trein als het op de route naar hun bestemming is.;
+
+  color=Kleur;
+  apply_to_trains=Op trein toepassen;
+
+  train=Trein;
+  train_count={count} trein;
+  trains_count={count} treinen;
+  train_count_tooltip=Druk op Ctrl + Shift + Rechtermuisknop terwijl de muis op een trein staat om toe te voegen.;
+
+  fuel=Brandstof;
+  fuel_info=Treinen hebben brandstof aan boord voor hun motor.<!brk>Het tanken gaat automatisch als ze arriveren bij hun station en deze verlaten. Het station moet verbonden zijn met een brandstof bron om te kunnen tanken.;
+
+  destination_none=Geen doel;
+  destination_rail=Spoor;
+  destination_station_rail={station} station bij spoor;
+  clear_route=Bestemmingsroute legen?;
+  clear=Legen;
+
+  optional=Optioneel;
+  optional_set=Optionele instellen;
+  optional_unset=Optionele weghalen;
+  optional_info=Optionele bestemmingen worden niet bezocht als de wacht condities zijn voldaan.;
+
+  no_info=Geen informatie;
+  no_next_route=Geen andere bestemming;
+
+  edit_train=Trein bewerken;
+  send_to_depot=Stuur naar treindepot;
+  lift_to_depot=Breng naar treindepot;
+  set_multi_drive=Instellen op verschillende richtingen;
+  set_forward_drive=Instellen op voorwaardse richting;
+  try_to_reverse=Probeer achteruit te rijden;
+  prefer_reverse=Voorkeur voor achteruit rijden;
+  prefer_forward=Voorkeur voor vooruit rijden;
+
+  send_to_depot_help=Stuur de trein terug naar het depot. Gebruik dit als een gratis transport als de trein klem zit.;
+  lift_to_depot_help=Breng trein onmiddelijk terug naar depot voor een tarief.;
+  set_multi_drive_help=Geef trein de mogelijkheid om achteruit te rijden.;
+  set_forward_drive_help=Stel de trein in op alleen vooruit rijden.;
+  try_to_reverse_help=Laat de trein proberen achteruit te rijden naar zijn huidige bestemming.;
+  prefer_help=Nadat de trein gestopt is weer standaard vooruit rijden.;
+
+  go_to=Ga naar;
+  select_route=Kies route;
+  route_key=Druk op {keys} om het route venster te openen;
+  edit_route=Bewerk route;
+  add_new_route=Nieuwe route toevoegen;
+  add_new_route_ctrl=Houd Ctrl ingedrukt om de houdige route te dupliceren.;
+  add_new_preset_ctrl=Houd Ctrl ingedrukt om de huidige instelling te dupliceren.;
+  add_local_route=Individuele route toevoegen;
+  remove_route=Route verwijderen;
+  remove_route_action=Route verwijderen?;
+  destroy_route=Route verwijderen;
+
+  reselect_destination=Bestemming opnieuw selecteren;
+  reselect_destination_info=De bestemming kan een spoor of een station zijn.<!brk>Je kunt een specifiek spoor kiezen waar de trein zal stoppen terwijl een station gebruikt wordt door Ctrl ingedrukt te houden en het spoorstuk te selecteren.;
+  remove_destination=Bestemmind verwijderen;
+  no_destination=Geen bestemming;
+  remove_condition=Verwijder conditie;
+
+  no_route=Geen route;
+  local_route=Individuele route;
+  routes=Routes;
+  route=Route;
+  routes_total=Actieve routes {active}/{count};
+  inactive= (Inactief);
+
+  wagons=Wagons;
+  length=Lengte;
+  length_tiles=Lenge in tegels;
+  speed=Topsnelheid;
+  corner_speed=Snelheid in bocht;
+  ramp_speed=Snelheid op helling;
+  bridge_speed=Snelheid op brug;
+  front_power=Kracht voor;
+  back_power=Kracht achter;
+  braking_power=Remkracht;
+  mass=Massa;
+  mass_cargo=Lading massa;
+  drive_multi=Meerdere;
+  drive_forward=Vooruit;
+  drive_backward=Achteruit;
+  travelled=Gereden;
+  lock_people=Vergrendel personen;
+  lock_goods=Vergrendel goederen;
+
+  cargo=Lading;
+  no_cargo=Geen lading;
+  passengers=Passagiers;
+  no_passengers=Geen passagiers;
+  capacity=Capaciteit {count}x;
+
+  add_station_key=Of druk op Ctrl + Linkermuisknop op een station of spoor;
+  select_station=Selecteer bestemming;
+
+  routes_ui_goal=Dit menu wordt gebruikt voor het maken en bewerken van treinroutes. Je kunt hier stations, acties en treinen selecteren.;
+  routes_ui_usage=Het eerste deel is voor het beheren van huidige routes. Routes kunnen een eigen naam hebben en een willekeurig aantal treinen.<!brk>Het tweede deel is voor het beheren van bestemmingen. Druk op Ctrl + Rechtermuisknop op een station of spoor om een nieuwe bestemming in te stellen;
+  routes_ui_local=Deze route is afzonderlijk en kan alleen gebruikt worden door de bovenliggende trein. Hernoem of maak het globaal.;
+
+  train_preset_ui_goal=Dit menu wordt gebruikt om trein voorkeuren te maken of bewerken. Je kunt hier aangepaste treinen voorbereiden en maken.;
+}
+
+DepotUI
+{
+  train_depot=Trein depot;
+  train_preset=Trein informatie;
+  build=Bouwen;
+  deploy=Inzetten;
+  deploy_all=Alles inzetten;
+  no_route=Een route is nodig om deze trein in te zetten.;
+
+  border=Grens {id};
+  border_info=De grens vertegenwoordigt een pad dat uit deze kolonie leidt.;
+  border_spawning=Verschijnt;
+  border_spawn_ready=Verschijnt in {amount};
+  border_consuming=Verbruiken;
+  border_consume_ready=Klaar om te verbruiken;
+
+
+  add_train=Voeg een nieuwe trein toe;
+  add_preset=Selecteer vanuit een voorkeuze.<!brk>Voorkeuzen kunnen gemaakt worden vanuit treinen in het depot.;
+  send_to_depot=Stuur naar een ander trein depot;
+
+  state_idle=Inactief;
+  state_blocked=Kan niet gebouwd worden! Een trein blokkeerd het pad!;
+  state_time_left=Totaal resterende tijd is {time};
+  state_disabled=Uitgeschakeld;
+
+  build_train_invalid=Trein is ongeldig;
+  build_depot_to_short=Het depot is te kort voor deze trein;
+  build_train_no_power=De trein heeft voor te weinig kracht;
+  build_not_enough_goods=Onvoldoende goederen;
+  build_no_warehouse=Er is geen pakhuis;
+
+  locomotives=Locomotieven;
+  tenders=Kolenwagons;
+  wagons_passenger=Passagierwagons;
+  wagons_goods=Goederenwagons;
+
+  single_train=Enkele trein;
+  route_trains=Treinen op een route;
+  preset_trains=Treinen in een voorinstelling;
+
+  match=Evenaren;
+  new=Nieuw;
+  select=Selecteer: {amount}/{total};
+
+  preset_name=Voorinstelling naam;
+  select_presets=Selecteer voorinstelling;
+  create_new_preset=Een nieuwe voorinstelling maken;
+  copy_train=Kopieer trein;
+  remove_preset=Voorinstelling verwijderen;
+  save_as_preset=Voorinstelling opslaan;
+
+  drive_direction=Rijrichting;
+  backward_drive=Achteruit rijden;
+  forward_drive=Vooruit rijden;
+  forward_drive_help=Trein kan alleen vooruit;
+  multi_drive=Meerdere richtingen;
+  multi_drive_help=Trein kan vooruit en achteruit rijden;
+  multi_drive_rev=Meerdere richtingen, achteruit;
+  multi_drive_rev_help=Geef de voorkeur aan achteruit rijden na een volledige stop;
+
+
+
+  cost_buy=Bouwkosten;
+  cost_upkeep=Onderhoud;
+  cost_sell=Verkoop restitutie;
+
+  length_tiles=Tegels;
+  max_train_length=Maximale trein tegel lengte;
+  time_to_build=Tijd om een enkele trein te maken;
+  time_to_build_left=Tijd over om een enkele trein te maken;
+  time_total=Totale tijd {time};
+  copies=Kopieen;
+}
+
+CityUI
+{
+  inhabitants=Inwoners;
+  taxes=Belastingen;
+  taxes_body={tax} munten per inwoner;
+  unhappy_tax=Ongelukkige bewoners betalen geen belasting. Zorg dat ze blij zijn!;
+  happiness=Gelukkigheid;
+  happiness_body=Gelukkige inwoners rusten en groeien sneller;
+  can_travel=Kan reizen;
+  cant_travel=Kan niet reizen;
+  cant_travel_info=Inwoners kunnen niet reizen voor hun plezier.<!brk>Voeg een route toe met de wissel reizigers actie tussen twee nederzettingen,;
+  no_work=Geen werk;
+  need_goods={goods} nodig;
+  most_attractive=Meest aantrekkelijke nederzetting;
+  rest_work_balance=Rust / werk balans;
+  rested=Uitgerust;
+  resting=Uitrusten;
+  working=Werken;
+  rest_speed=Rust snelheid;
+  can_work=Instaat om te werken;
+  rested_at=Uitgerust om;
+  desirability=Gewildheid;
+
+  revenue=Omzet;
+  service_revenue_info=Omzet per inwoner/bezoeker;
+  commercial_revenue_info=Omzet door wegverkeer van inwoners en reizigers.;
+  revenue_amount={amount} munten per bezoeker;
+
+  travelers=Reizigers;
+  visitors=Beszoekers;
+  indirect=Indirect;
+  travelers_info=Reizigers zullen je betalen voor transport naar hun bestemming en voor de terugrit. Zorg dat ze ook terug kunnen rijden.;
+
+  goods_need_provides=Levert;
+  goods_need_consumes=Nodig {amount}/minuut;
+  goods_need_restock=Automatische bijvulling in;
+  services=Diensten;
+  service={service} dienst;
+  service_body=Diensten verhogen de gelukkigheid;
+  service_provide=Levert;
+  no_services_connected=Geen diensten binnen bereik;
+  service_missing={service} is niet binnen bereik;
+  commercial_limit=Ondersteunde productie bouwwerken {count}x;
+  specialization=Nederzettingen kunnen zich specialiseren in een specifieke productie en ontvangen een extra bonus van {percent} per bouwwerk.<!brk>De specialisatie is gebaseerd op de meest voorkomende bouwwerk types.;
+
+  attractiveness=Aantrekkelijkheid;
+  attractiveness_body=Aantrekkelijkheid geeft aan hoe aantrekkelijk een nederzetting wordt beoordeeld door de bewoners.<!brk>Aantrekkelijke nederzettingen hebben gelukkigere inwoners en trekken meer toeristen aan.<!brk>Als de aantrekkelijkheid negatief wordt, worden bewoners ongelukkig en trekken er geen nieuwe mensen in.;
+
+  storage_count=Opslag {count};
+  no_inhabitants=Geen inwoners;
+  empty_storage=Opslag is leeg;
+
+  class_tooltip=Grootte van klasse;
+  class_hamlet=Dorpje;
+  class_village=Dorp;
+  class_big_village=Groot dorp;
+  class_huge_village=Enorm dorp;
+  class_suburb=Voorstad;
+  class_town=Stad;
+  class_big_town=Grote stad;
+  class_huge_town=Enorme stad;
+  class_city=Stad;
+  class_metropolis=Metropool;
+  class_megalopolis=Megametropool;
+}
+
+WarehouseUI
+{
+  warehouse=Pakhuis;
+  sort_by=Sorteer op:;
+
+  // Used for sort
+  Amount=Hoeveelheid;
+  Capacity=Capaciteit;
+  Hoeveelheid=Hoeveelheid;
+  Capaciteit=Capaciteit;
+  Name=Naam;
+
+  chunks={range} delen;
+  production_low=Productie is te laag;
+}
+
+FactoryUI
+{
+  efficiency=Efficiëntie;
+  efficiency_body=Meet de kwaliteit en efficiëntie van het uitgevoerde werk. Achterstallig onderhoud en vermoeide medewerkers hebben hier invloed op.;
+  limit=Limiet;
+  batch_amount=Hoeveelheid lading;
+  average_rest=Gemiddelde rust;
+  average_productivity=Gemiddelde productiviteit;
+  tired=Vermoeid;
+
+  requires=Vereist een {name};
+  requires_multiply=Productie vermenigvuldigd als een bepaald aantal bouwwerken in de buurt staan.;
+
+  bonus=Kan gebruikt worden om de effectiviteit van de productiefaciliteit te beïnvloeden met {percent}.;
+  specialization=Productielocaties kunnen zich specialiseren en ontvangen een extra bonus van {percent} per gebouw wanneer ze zijn aangesloten via het distributiecentrum.;
+}
+
+InfoPanel
+{
+  info_panel=Info paneel;
+  Progression=Voortgang;
+  Stats=Statistieken;
+  Blueprints=Bouwtekeningen;
+
+  goods=Goederen;
+  workers=Arbeiders;
+
+  goods_stamps=Goederenzegels;
+  people_stamps=Bewonerszegels;
+  destination_stamps=Bestemmingszegels;
+
+  goods_stamps_info=De goederenzegels worden opgeteld voor de goederen die geleverd zijn, vermenigvuldigd met de afstand. Voor elke extra verhoging zijn meerdere geleverde goederen vereist.;
+  people_stamps_info=De bewonerszegels worden opgeteld voor elke persoon die naar de bestemming wordt gebracht, vermenigvuldigd met de afstand. Voor elke verdere verhoging zijn meerdere mensen nodig die naar de bestemming worden gebracht.;
+  destination_stamps_info=Bestemmingszegels worden toegevoegd voor elke trein die een station binnenrijdt om een actie uit te voeren.;
+
+  storage_warehouse=Verhoog de capaciteit van het pakhuis.;
+  storage_settlement=Verhoog de nederzetting opslag capaciteit.;
+  storage_production=Verhoogt de opslagcapaciteit van productiefaciliteiten.;
+
+  range_warehouse=Verhoog het bereik van het pakhuis.;
+  range_settlement=Verhoog het bereik van de nederzetting.;
+  range_production=Verhoog het bereik van de productie faciliteit.;
+
+  depot=Verhoog de maximale trein lengte die een trein depot kan ondersteunen.;
+  population=Verhoog nederzetting populatie limiet.;
+  attractiveness=Verhoog de basisnederzetting zijn aantrekkelijkheid.;
+
+  new_stamps=Zegel uitbreidingen beschikbaar!;
+  new_stamps_info=Je kunt zegels uitgeven voor diverse uitbreidingen.;
+  show_progression=Voortgang bekijken;
+  show_progression_info=Open een voortgangsboom.;
+  select_progression=Kies een voortgangsboom. Er is een algemene voortgang die bepaalt wat er wordt ontgrendeld.<!brk>Dorpen en steden hebben hun eigen voortgang.;
+
+  global=Algemeen ({unlocked}/{total});
+  city={name} ({unlocked}/{total});
+  stamp_per_tile=1 zegel per {tiles} tegels.;
+}
+
+HUD
+{
+  tooltip_population=Inwonersaantal;
+  tooltip_cities=Steden;
+  tooltip_factories=Fabrieken;
+  tooltip_warehouse=Pakhuis;
+  tooltip_trains=Treinen;
+  tooltip_stations=Stations;
+  tooltip_wealth=Rijkdom;
+
+  unlock_list=Mijlpalen lijst;
+  nothing_to_unlock=Niets on vrij te spelen;
+  problems=Problemen;
+  problem=Problemen;
+  no_problems=Geen problemen;
+
+  problem_connection=Uitbreiding heeft geen verbinding;
+  problem_station_connection=Station heeft geen verbinding;
+  problem_people=Niet genoeg arbeiders;
+  problem_road=Geen weg;
+  problem_no_station=Geen station binnen bereik;
+  problem_storage=Geen opslag binnen bereik;
+  problem_work=Niet genoeg werk;
+  problem_happiness=Deze inwoners zijn ongelukkig;
+  problem_efficiency=Efficiëntie onder 100%;
+  problem_fuel=Niet genoeg brandstof;
+  problem_disabled_trains=Trein is uitgeschakeld;
+  problem_trains_no_path=Trein kan zijn bestemming niet bereiken;
+  problem_trains_no_route=Trein heeft geen route;
+  problem_trains_empty_route=Route heeft geen andere bestemmingen;
+  problem_depot_route_blocked=Het treindepot is geblokkeerd;
+  problem_upkeep=Niet genoeg onderhoud;
+  problem_tired=Arbeiders zijn vermoeid;
+  problem_no_goods=Goederen ontbreken;
+  problem_disabled_general=Bouwwerk is uitgeschakeld;
+  problem_pollution=Ongewild land;
+
+  problem_connection_info=Het uitbreidingsgebouw moet verbonden zijn met het hoofdgebouw.;
+  problem_station_connection_info=Station heeft een verbinding nodig voor in- en uitlaad acties.;
+  problem_people_info=Er werken niet genoeg mensen, daardoor is het werk inefficient. Probeer meer mensen te halen.;
+  problem_people_station_info=Er is niemand die in de trein kan stappen. Iedereen is aan het werk of aan het uitrusten.;
+  problem_road_info=Bouwwerk heeft een verbonden weg nodig om te functioneren.;
+  problem_no_station_info=Inwoners kunnen niet aan het werk als er geen station binnen bereik is. Probeer dichterbij een station te bouwen of maak betere wegen.;
+  problem_storage_info=Productie faciliteiten vereisen opslag bereikbaar via de weg.;
+  problem_work_info=Er is niet genoeg werk! Dit maakt de inwoners ongelukkig.;
+  problem_happiness_info=De mensen zijn ongelukkig!<!brk>Zorg er voor dat ze toegang hebben tot alle diensten en benodigdheden.;
+  problem_efficiency_info=De productie is inefficiënt.<!brk>Efficientie kan verbeterd worden als arbeiders goed kunnen rusten, onderhoud kan worden uitgevoerd en alle diensten bereikbaar zijn per weg.;
+  problem_fuel_info=De motor kan niet op volle kracht werken.<!brk>Zorg er voor dat treinen stoppen bij stations waar ze kunnen tanken.;
+  problem_disabled_trains_info=Stuur de trein terug naar het treindepot voor reparatie.;
+  problem_trains_no_path_info=Er is mogelijk geen spoor naar de bestemming.<!brk>Controleer of of de seinen niet de verkeerde kant op staan.;
+  problem_trains_no_route_info=De trein heeft een route nodig om te rijden.<!brk>Om een route toe te voegen, open het route menu met Ctrl + R<!brk>Je kunt de trein selecteren en dan de route instellen uit de uitschuiflijst.;
+  problem_trains_empty_route_info=Voeg meer bestemmingen toe aan de route of kies een andere.;
+  problem_depot_route_blocked_info=Een depot heeft een vrij spoorblok nodig om een trein te bouwen.<!brk>Probeer een sein toe te voegen om een vrij blok te maken of verplaatst de blokkerende trein.;
+  problem_upkeep_info=Er is niet genoeg voorraad in het pakhuis om onderhoud uit te voeren van dit gebouw. Dit verminderd de efficiëntie.;
+  problem_tired_info=Vermoeide arbeiders werken minder efficiënt.<!brk>Breng een nieuwe groep arbeiders en stuur de huidige arbeiders naar huis.;
+  problem_no_goods_info=Dienstgebouw kan niet functioneren zonder benodigde goederen.;
+  problem_disabled_general_info=Uitgeschakelde gebouwen produceren niets en vragen minder onderhoud.;
+  problem_pollution_info=Er zijn gebouwen in de buurt die de aantrekkelijkheid verminderen om er te wonen.<!brk>Voeg meer decoraties toe of verwijder het problematische gebouw.;
+
+  no_settings=Geen instellingen;
+  add_target=Nieuw doel toevoegen;
+  signal_unreserved=Niet gereserveerd;
+  signal_reserved=Reservering gekopieerd;
+  signal_failed=Reservering mislukt;
+
+  requirement=Vereiste;
+  Length=Lengte;
+  Speed=Snelheid;
+  Destination=Bestemming;
+  Weight=Invloed;
+  Recalculate=Herberekenen;
+  Multidrive=Tweerichtingen;
+  Route=Route;
+  Name=Naam;
+  Copy=Kopieren;
+  Limit=Limiet;
+  Block=Blokkeren;
+  Prefer=Voorkeur;
+  LimitAndPrefer=Limiet en voorkeur;
+  weight=Gewicht;
+  Type=Type;
+  IsCargo=Goederentrein;
+  HasCargo=Beladen;
+  NoCargo=Geen lading;
+  FullCargo=Volle lading;
+  IsPassengers=Passagierstrein;
+  HasPassengers=Heeft passagiers;
+  NoPassengers=Geen passagiers;
+  FullPassengers=Vol met passagiers;
+  IsTravelers=Reizigers trein;
+
+  route_name=Route naam;
+  both_name=Trein en route;
+
+  Length_info=Beperk doorgang gebaseerd op hoe lang de trein is.;
+  Speed_info=Beperk doorgang afhankelijk hoe snel de trein kan rijden.;
+  Destination_info=Beperk doorgang van de trein afhankelijk van de bestemming.;
+  Type_info=Beperk doorgang gebaseerd op het trein type.;
+  Weight_info=Beinvloed de routeplanning van de treinen.;
+  Recalculate_info=De trein herberekend zijn route na het signaal.;
+  Multidrive_info=Beperkt de doorgang tot treinen die zowel vooruit als achteruit kunnen.;
+  Route_info=Beperk de doorgang gebaseerd op welke route de trein gebruikt.;
+  Name_info=Beperk doorgang voor treinen met een tekst in hun naam. Als de tekst start met = dan zal de volledige naam worden vergeleken.;
+  Copy_info=Kopier de sein reservering door naaar alle volgende seinen. Handig voor samenvoegen van prioriteiten.;
+  limit_info=Limiet blokkeerd alle treinen die niet aan de vereisten voldoen.<!brk>Voorkeur beinvloed de treinen met gewicht die voldoen aan de vereisten.<!brk>Blokkeren blokeert alle treinen die voldoen aan de criteria.;
+  weight_info=Gewicht beinvloed het vinden van een route. De korste route wordt gezocht naar de bestemming. Een gewicht van 100 betekend dat bij het berekenen van de route de voorkeur wordt gegeven voor dit pad.<!brk>Als er een trein stil staat op een tegel waarbij het niet de bestemming is zal dit een gewicht geven van -10.<!brk>Een tegel met een rijdende trein geeft een gewicht van -1.;
+
+  expenses=Kosten;
+  expense_warehouse=Pakhuis;
+  expense_train_depots=Trein depot;
+  expense_factories=Fabrieken;
+  expense_stations=Stations;
+  expense_trains=Treinen;
+  expense_cities=Steden;
+  expense_travel=Reizen;
+  expense_services=Diensten;
+  expense_commercial=Commercieel;
+  wealth=Rijkdom;
+  balance=Balans;
+  capacity=Capaciteit;
+  made_total=Totaal inkomsten;
+
+  paused=GEPAUSEERD;
+  tooltip_pause=Pauze;
+  tooltip_play=Spelen;
+  tooltip_shuffle=Willekeurig;
+  tooltip_play_x1=Speed op normale snelheid;
+  tooltip_play_x4=Speel op 4x snelheid;
+  tooltip_play_x16=Speel op 16x snelheid;
+  tooltip_menu=Menu openen;
+  tooltip_time_visualization=Visuele bediening schakelen;
+
+  visual_time=Tijd van de dag;
+
+  add=Toevoegen;
+  hide=Verbergen;
+  replace=Vervangen;
+}
+
+Tutorial
+{
+  next=Volgende;
+  previous=Vorige;
+  back=Terug;
+  skip=Overslaan;
+  start=Start;
+  got_it=Begrepen!;
+  learn=Leren;
+  continue=Verder;
+  finish=Afronden;
+  restart=Opnieuw;
+
+  no_locomotive=Er moet een locomotief voorwaards wijzen;
+
+  // Advices
+
+  advice=Advies;
+
+  tip_warehouse=In het pakhuis zijn er bouwmaterialen opgeslagen voor bouwen of onderhoud. Zorg er voor dat de goederen hier bezorgd kunnen worden voor toekomstige bouwwerken.<!brk>Pakhuizen hebben veel ruimte nodig zonder bergen of water, je zou moeite kunnen hebben om je zuurverdiende materialen terug te brengen!;
+  tip_hall=Het dorpshuis is het hoofdgebouw in een dorp. Vanaf hier kan je uitbreiden vanaf een enkel gebouw op onontwikkeld land tot een bruizend dorp.<!brk>Probeer je dorpshuis te bouwen dichtbij het water.;
+  tip_upkeep=Je goederen beginnen op te raken! Gebouwen hebben onderhoud nodig. Zorg er voor dat je productie hoger is dan je verbruik.;
+  tip_swap=De arbeiderswissel stelt je in staat om arbeiders in en uit te laden.<!brk>Als dit gebruikt wordt in een stad of dorp stappen de uitgeruste arbeiders in de trein om aan het werk te gaan en de vermoeide arbeiders stappen uit om thuis uit te rusten.<!brk>Als dit gebruikt wordt bij een boederij of fabriek wisselen de uitgeruste arbeiders en vermoeide arbeiders elkaar af. Deze gaan dan met de trein terug naar huis.<!brk>Het laden en lossen wordt gedaan op hetzelfde moment.;
+  tip_load=Als het tijd is om goederen te laden of te lossen, vergeet dan niet om de laden en lossen acties te selecteren op de gekozen bestemming. Anders blijft de lading achter in de wagon!;
+  tip_workers=Waar zouden fabrieken en boerderijen zijn zonder arbeiders? De productiviteit wordt minder als de arbeider niet goed kan rusten.<!brk>Gebruik treinen om de vermoeide reizigers af te wisselen met uitgeruste reizigers.;
+  tip_coal=Een spoorwegennetwerk heeft een hoop brandstof nodig om de treinen te laten rijden. Bouw kolenmijnen bij kolenafzettingen om kolen voor ze te wissen!<!brk>Breng de kolen naar magazijnen en dorpen zodat je treinen kolen kunnen tanken.<!brk>Treinen tanken automatisch wanneer ze stoppen bij een station met brandstof.;
+  tip_sawmill=Bij de zaagmolen hout verwerkt: een goed, betrouwbaar bouwmateriaal!<!brk>Gelukkig hebben we een plek om het op te bergen. Alle bouwmaterialen moeten naar het pakhuis.<!brk>In het pakhuis worden alles opgeslagen voor het bouwen en onderhoud.;
+  tip_expansion=Gebruik het uitbreidingsbouw menu om een gebouw te selecteren en uit te breiden. Het uitbreiden van gebouwen verhoogt de productiviteit.;
+  tip_potatoes=Aardappelboederijen produceren aardappelen om de arbeiders te voeden en ze gezond en gelukkig te houden.<!brk>Zorg er voor dat aardappels getransporteerd worden naar een dorp waar het nodig is.;
+  tip_residence=Arbeiders hebben een uitrustplek nodig als ze niet aan het werk zijn. Het dorp heeft gebouwen nodig waar arbeiders kunnen worden en daarbuiten kunnen vermaken.<!brk>Als je zowel werk EN goederen aanbied zal je niet alleen hun leven verbeteren maar ook nieuwe bewoners aantrekken!;
+  tip_rest=Hoe hard ze ook werken, arbeiders worden uiteindelijk moe en moeten uitrusten. Een vermoeide arbeider kan niet aan het werk en moet verwisselt worden met een uitgeruste arbeider.<!brk>Arbeiders kunnen alleen thuis uitrusten en rusten sneller uit als ze blij zijn.;
+  tip_services=Diensten beinvloeden het geluk en productiviteit. Een watertoren verzorgt bijvoorbeeld water aan nabij gelegen gebouwen als ze verbonden zijn met een weg.<!brk>Vergeet niet, ongelukkige mensen zijn ongelukkige arbeiders en ongelukkige arbeiders hebben meer tijd nodig om uit te rusten.;
+  tip_depot=Met het treinendepot kan je een vloot treinen maken die je de wereld in stuurt! Je kunt dit depot overal bouwen zolang de treinen er maar uit kunnen komen.<!brk>Om een trein te bouwen, selecteer het treinendepot en sleep met de linkermuisknop. De maximale treinlengte is afhankelijk van de lengte van het depot.;
+  tip_bm=Dit is de bouw modus. Deze kunt je openen en verlaten door op {keys} te drukken.<!brk>Elk onderdeel heeft een verschillende bouw besturing. Lees dus altijd wat er staat in het venster;
+  tip_station=Elk dorp, pakhuis en verwerking faciliteit heeft stations nodig om goederen er tussen te verplaatsen.<!brk>Bouw een station naast het gebouw om het aan te sluiten op het netwerk.;
+  tip_station_city=In de bouw modus lichten gebouwen op als het station en mee verbonden is.<!brk>Het inladen van arbeiders vanaf een stad of dorp gaat vanaf de weg die verbonden moet zijn met de weg.<!brk>Let er op dat stations een beperkt bereik hebben, zorg er voor dat ze bereikbaar zijn!;
+  tip_station_platform=Een trein kan vertrekken en gebruikmaken van een station zolang er twee sporen parallel aan het station lopen.<!brk>Wagons die geen perrons hebben aan de zijkant kunnen echter geen gebruik maken van het station.<!brk>Je kunt het station uitbreiden met perrons en bruggen.;
+  tip_travelers=Als je meer dan twee dorpen hebt willen mensen gaan reizen, hiervoor ook betalen. Reizigers betalen je om ze te transporteren naar hun bestemming.<!brk>Mensen zullen verzamelen bij het station om te reizen met de wissel reizigers actie.;
+  tip_travelers_func=Reizigers willen graag naar de meest actieve nederzetting reizen.<!brk>Mensen reizen na werktijd en dit zal invloed hebben op wie er zullen werken. Zorg voor een goede planning van hun vrije tijd!;
+  tip_city_prod=Sommige goederen kunnen alleen in een dorp of stad gemaakt worden met productie faciliteiten.<!brk>Een vissershaven produceert bijvoorbeeld vis. Hongerige mensen zullen hier graag willen wonen en kan je hogere belasting heffen om meer te kunnen bouwen.;
+  tip_signal=Doormiddel van seinen kan het spoor opgedeeld worden in blokken. Er kan maar één trein rijden per blok.<!brk>Seinen beheersen het spoor en zorgen er voor dat er geen botsingen komen.<!brk>Als je meer wilt weten over hoe je spoor kunt beheersen probeer dan de seinen zelfstudie.;
+  tip_upgrade=Als je aan bepaalde voorwaarden hebt voldaan kan je sommige stadsgebouwen kunnen verbeteren.<!brk>Je kunt gebouwen verbeteren door ze te selecteren en de uitbreidings optie te kiezen uit het context menu.<!brk>Je kunt ook uitbreiden vanuit het bouw menu.;
+  tip_craftsmen=Misschien wil je je arbeiders verbeteren met wat meer ervaring. Steden kunnen vakmannen aantrekken, bekwame arbeiders die geavanceerde goederen opleveren en meer belastig betalen, als je voor ze zorgt.<!brk>Je kunt arbeiderswoningen verbeteren naar vakmensenwoningen.;
+  tip_unlocks=Als je niet weet wat het volgende is wat je kunt doen, maak je geen zorgen. Bekijk de lijst met mijlpalen en bekijk welke mijlpaal je wilt halen en wanneer.<!brk>Als je een dorp selecteert kan je zien wat je daar kunt behalen.;
+  tip_attractiveness=Sommige gebouwen, hoewel ze nog steeds bruikbaar zijn verminderen helaas de aantrekkelijkheid van de nederzetting.<!brk>Je kunt het verschil goed maken door parken en andere decoratieve gebouwen te bouwen.<!brk>Pas op dat je aantrekkelijkheid niet negatief wordt, dit maakt je inwoners ongelukkig. Iedereen wil op een mooie plek wonen!;
+  tip_wealth=Je geldmiddelen raken op! Dit kan leiden tot problemen bij het uitbreiden.<!brk>Verzamel meer belastingen voor het onderhoud;
+  tip_unlocks_remove=Behaalde onderdelen kunnen worden verborgen met de linkermuisknop.;
+  tip_day_night=Naar verloop van tijd en als het nacht wordt kan het zicht slechter worden.<!brk>Je kunt het weer licht maken door de tijd aan te passen.;
+  tip_fuel=Treinen hebben brandstof nodig om efficient te rijden.<!brk>Ze zullen automatisch tanken als ze aankomen bij een station met brandstof.;
+  tip_bricks=Steenfabrieken maken stenen, een ander betrouwbaar maar zwaar bouwmateriaal.<!brk>Om stenen te produceren heb je een bakoven met droogwijde nodig verbonden met wegen.;
+  tip_colony=Het produceren van natuursteen stelt je in staat om een tweede dorp te bouwen.<!brk>Meedere dorpen maken je leven veel makkelijker in de toekomst.;
+  tip_distribution_center=Een station kan maar verbonden zijn met een enkele productie faciliteit. Bouw een distributie centrum tussen een station en productie faciliteiten met elkaar te verbinden.<!brk>Meerdere dezelfde productie faciliteiten met elkaar verbonden staan specialisatie toe en verhogen de productiviteit en efficientie.;
+  tip_cant_load=De "{name}" trein kan geen goederen laden op station "{station}".<!brk>Zorg er voor dat je de juiste wagons gebruikt.;
+  tip_cant_swap=De "{name}" trein kan geen mensen wisselen op station "{station}".<!brk>Zorg er voor dat je passagierswagons hebt.;
+
+  // Basics Tutorial
+
+  basics=Basiskennis;
+
+  basics_intro=Welkom aanboord van Sweet Transit, een vreemde wereld waar treinen de enige manier van vervoer zijn... Letterlijk!<!brk>Het doel is om een bruisende kolonie te bouwen waar de inwoners kunnen gedijen.<!brk>Deze zelfstudie doet een inleiding voor basiskennis.;
+
+
+  navigation=Navigatie;
+
+  navigation_intro=Laten we beginnen met het navigeren in de wereld.;
+  navigation_move=Je kunt de camera op 4 manieren bewegen:<!brk>- Druk op {keys}<!brk>- Houd de middelste muisknop ingedrukt en beweeg de muis<!brk>- Houd de rechtermuisknop ingedrukt<!brk>- Houd de linkermuisknop ingedrukt tegelijkertijd met shift.<!brk>Probeer de camera te bewegen.;
+  navigation_move_left=Beweeg naar links met {keys};
+  navigation_move_right=Beweeg naar rechters met {keys};
+  navigation_move_up=Beweeg naar boven met {keys};
+  navigation_move_down=Beweeg naar beneden met {keys};
+  navigation_move_mouse=Beweeg met de middelste muisknop;
+  navigation_zoom=Het in en uitzoomen kan met de sneltoetsen {keys} of een muiswiel.;
+  navigation_zoom_in=Inzoomen met {keys};
+  navigation_zoom_out=Uitzoomen met {keys};
+  navigation_zoom_mouse=Zoomen met de muis;
+  navigation_zoom_map=Uitzoomen naar de kaartweergave;
+  navigation_rotate=Gebruik {rotate_left} of {rotate_right} om te draaien.;
+  navigation_rotate_left=Draai links met {keys};
+  navigation_rotate_right=Draai rechts met {keys};
+
+
+  hud=HUD;
+
+  hud_intro=Laten we kijken naar de gebruikersinterface. De bovenkant van het scherm is ontworpen om te helpen met het uitbreiden van je kolonie.;
+  hud_time=Het tijdpaneel toont je de huidige datum en tijd.<!brk>De snelheid van de tijd kan worden aangepast als je het tempo wilt veranderen.;
+  hud_time_toggle=Druk op {keys} om het spel te pauzeren of om verder te gaan.<!brk>Door het spel te pauzeren krijg je de kans om de treinen te stoppen en veranderingen in je spoornet te maken zonder hun route te onderbreken.;
+  hud_info=De informatiebalk toont de stand van je bronnen, treinen en belangrijke gebouwen.<!brk>Door op elke sectie te drukken krijg je meer gedetailleerde informatie.;
+  hud_unlockables=De mijlpalen lijst toont je huidige taken waarmee je onderdelen kunt ontgrendelen.<!brk>Dorpen en steden hebben hun eigen taken, deze worden getoond als ze geselecteerd worden.<!brk>Als je niet weet wat je moet doen gebruik je deze lijst als gids om voortgang te maken.;
+  hud_problems=De probleemlijst toont alle huidige problemen en hoe je deze moet oplossen.<!brk>Door op een probleem te klikken loop je door de bestemmingen heen waar de problemen zijn. Hiermee zit je boven op de problemen en kan je het aantal problemen laten afnemen.;
+  hud_problems_task=Klik op een probleem;
+  hud_selection=Het selectievenster toont algemene informatie over de geselecteerde groep.<!brk>De zaagmolen, boerderijen en opslagplekken zijn allemaal in dezelfde groep. Met gegroepeerde informatie hoef je er niet individueel doorheen!;
+  hud_selection_task=Selecteer houtopslag;
+  hud_context=Het contextvenster toont specifieke informatie over het geselecteerde object.<!brk>Deze opslageenheid kan aanvullend hout opslaan voor de zaagmolen;
+
+  scenario_intro=Scenarios beproeven je logistieke vaardigheden door verschillende problemen op te lossen. Door ze alle 20 af te ronden zal je een veel betere infrastructuur ontwerper worden!;
+  scenario_select=De kaart van een scenario toont de ingangen/uitgangen op de hoeken. Bij het selecteren worden de vereiste verbindingen getoond.;
+  scenario_select_task=Kies een ingang of een uitgang;
+  scenario_connect=Treinen komen aan via de ingangen en volgen dan de pijlen naar de uitgangen. Plaats spoor om ze met elkaar te verbinden.;
+  scenario_connect_task=Gebruik spoor om de ingang met zijn uitgang te verbinden;
+  scenario_test=Druk op start om uit te proberen hoe goed je oplossing het doet. Bereik tenminste één ster om naar het volgende scenario te gaan.;
+  scenario_test_task=Druk op de startknop;
+
+  build_intro=En nu, het laatste en het onderdeel met de meeste impact van de gebruikersinterface: het bouw gereedschap.;
+  build_menu=Het bouw menu bied je alles om de kolonie uit te breiden.<!brk>Klik op de uitgelichte knoppen of druk op {keys} om te bouwen wat geselecteerd is.;
+  build_context=Het uitbreidingsmenu is beschikbaar wanneer een gebouw of dorp wat uitgebreid kan worden is geselecteerd.;
+  build_context_task=Selecteer een deel van je dorp om het uitbreidingsmenu te openen;
+  build_residences=Selecteer de arbeiderswoning vanuit het bouwmenu en bouw er {count} van in je dorp.<!brk>Je kunt klikken en slepen om meerdere gebouwen tegelijk te bouwen.;
+  build_residences_task=Bouw {count} arbeiderswoningen;
+  build_road=Alle gebouwen in het dorp moeten verbonden met elkaar zijn doormiddel van wegen. Die staan de arbeiders toe om te reizen tussen hun gebouwen, werk en dienstgebouwen in het dorp. Zonder deze wegverbindingen en mensen om ze te gebruiken is een gebouw maar een gebouw.;
+  build_road_task=Verbind gebouwen met het dorpshuis met een weg;
+
+  trains_intro=Gefeliciteerd! Het dorp is bedrijfsklaar en de bewoners kunnen zich vrij bewegen!<!brk>Over rondbewegen gesproken, het is tijd om te leren over treinen, de enige manier van transport in Sweet Transit.;
+  trains_intro_task=Selecteer de trein;
+  trains_info=Treinen kunnen worden aangepast om het makkelijker te maken om ze te volgen... of om je creatieve kant te laten zien!<!brk>Probeer de naam en kleur te veranderen van deze trein door gebruik te maken van de uitgelichte knoppen.;
+  trains_info_task_a=Verander de naam van de trein;
+  trains_info_task_b=Verander de kleur van de trein;
+  trains_navigation=Deze trein doet helaas niets omdat er geen route ingesteld is om te volgen.<!brk>Je zet hem aan het werk door de "{name}" route aan te klikken in de keuzelijst!;
+  trains_navigation_task=Wijs een route toe;
+  trains_follow=Druk op {keys} of dubbelklik op een wagen om hem te volgen.;
+  trains_follow_task=Volg de trein;
+
+  route_ui=Nu je treinen begrijpt is het tijd om te leren hoe je trein routes kunt maken.<!brk>Open het route menu met {keys} of door te klikken op de uitgelichte route menu knop.;
+  route_ui_task=Open het route menu;
+  route_new=Met dit menu kan je routes maken en bewerken.<!brk>In deze stap maken we een route om arbeiders te vervoeren vanaf je dorp naar de zaagmolen en terug.<!brk>Maak een nieuwe route door te klikken op de route toevoegen knop.;
+  route_new_task=Maak een nieuwe route;
+  route_name=Als je kolonie groeit zul je vele routes moeten beheren waardoor je het overzicht verliest.<!brk>Door ze duidelijke namen te geven - bijvoorbeeld "Arbeiders Hout 1" - zal je helpen ze makkelijker te vinden in de toekomst.;
+  route_name_task=Verander de naam van je nieuwe route;
+  route_destinations=Elke route bestaat uit een volgorde waarin de stations worden bezocht.<!brk>In dit geval willen we gebruik maken van de "{name_a}" en de "{name_b}";
+  route_destinations_task=Voeg het station "{name}" toe aan de route;
+  route_actions=Behalve het weten wat de bestemming is hebben treinen ook instructies nodig over wat er moet gebeuren bij aankomst. Bestemmingen gebruiken acties om dit te doen.<!brk>In dit voorbeeld moeten we arbeiders inladen en uitladen.;
+  route_actions_task=Stel de actie in bij elke bestemming op "wisselen arbeiders";
+  route_conditions=Onze trein heeft een geweldige start! Hij weet waar hij naar toe moet en wat hij moet doen. De laatste stap is om een wacht conditie in te stellen zodat de trein weet hoe lang hij moet stoppen.;
+  route_conditions_task=Klik op "Toevoegen wacht conditie" en kies "Verstreken tijd" voor elk van je bestemmingen;
+  route_assign=Wijs tenslotte je nieuwe route "{name_a}" toe aan de trein met de naam "{name_b}".;
+  route_assign_task=Wijs de route toe;
+  route_select_task=Kies route "{name}";
+
+  train_name=Trein naam;
+  train_passengers=Passagierstrein;
+
+  basics_end=Gefeliciteerd! Je hebt de basis geleerd en je eerste stappen genomen in de wereld van Sweet Transit. Je kunt verder reizen, je kennis uitbreiden door de andere zelfstudies te volgen of een nieuw avontuur te starten in een Nieuw spel.;
+
+  // City Building Tutorial
+
+  village=Dorpsgebouw;
+
+  village_intro=In deze les leer je hoe je dorpen kunt bouwen en uitbreiden.<!brk>Dorpen zijn het hart van de kolonie en als ze goed bevoorraad worden zal het een thuis geven voor arbeiders die werken in jouw industrie.;
+  village_warehouse=Om een dorp te bouwen beginnen we met een pakhuis. Pakhuizen worden gebruikt voor het opslaan van goederen die je nodig hebt voor het bouwen en onderhoud.<!brk>Onthoud dat het plaatsen can het pakhuis belangrijk is. Je kolonie zou kunnen uitgroeien en nieuwe goederen komen overal vandaan. Zorg er voor dat het pakhuis genoeg ruimte heeft voor stations en sporen vanuit alle richtingen.;
+  village_warehouse_task=Bouw het pakhuis;
+  village_hall=Nu je een pakhuis hebt, laten we ons eerste dorp maken!<!brk>We starten met het dorpshuis wat ons hoofdgebouw is en bouw vanuit daar verder.<!brk>Je hebt ook een waterbron nodig. Als je arbeiders krijgt zul je ze ook moeten voorzien van voedsel dus bouw in de buurt van de kustlijn.;
+  village_hall_task=Bouw een dorpshuis in de buurt van het water;
+  village_ui=Het selectie venster toont je de algemene informatie van jouw dorp, inclusief opgeslagen goederen en het aantal arbeiders.;
+  zoom_out_of_map=Inzoomen om de kaartweergave te verlaten;
+
+  village_residences=Inwoners hebben een plek nodig om te wonen. Gebouwen bouwen zorgt dat ze er kunnen wonen en maakt het mogelijk voor mensen om er te komen wonen!<!brk>Het bouwen van gebouwen zorgt er voor dat er meer mensen kunnen wonen, een grotere arbeidskracht en meer belastingen om weer te investeren in de kolonie.;
+  village_warning=Door met de muis over een probleem icoon te gaan krijg je meer informatie.<!brk>Alle problemen kunnen bekeken worden in de lijst met problemen;
+  village_warning_task=Ga met de muis over een gebouw met een probleem pictogram;
+  village_tooltip=Inwoners hebben diensten nodig voor hun geluk.<!brk>Als je nederzetting uitbreid worden de behoeften ook groter.<!brk>Hou in de gaten wat de bewoners nodig hebben! Ongelukkige bewoners werken minder en weigeren belasting te betalen.;
+  village_tooltip_task_pre=Selecteer een woongebouw;
+  village_tooltip_task=Ga met de muis over een dienst icoon;
+  village_water=De watertoren levert water aan de bewoners.<!brk>Woneners kunnen alleen service gebouwen gebruiken als deze op loop afstand zijn per weg. Bouw deze dus niet te ver van ze vandaan!;
+  village_water_task=Bouw {count} watertorens;
+
+  village_goods=Je kunt arbeiderswoningen verbeteren door goederen te leveren aan jouw dorp.<!brk>Elke voorwaarde zal de inwonerscapaciteit verhogen en meer belasting opleveren van dat woonhuis.;
+  village_goods_task=Ga met de muis over het woonhuis goederen pictogram om te leren wat het doet;
+  village_fish=Nu je arbeiders hebt is het tijd om ze te voeden! De eerste goederen waar je toegang toe hebt zijn vissen. Deze kan je verkrijgen door gebruik te maken van een vissershaven.<!brk>Zoals je misschien nog weet adviseerde we om een dorp te bouwen nabij een kustlijn. Een vissershaven kan namelijk alleen gebouwd worden aan de kust.;
+  village_fish_task=Bouw een vissershaven aan de kunst nabij je dorp;
+  village_fish_roads=Je vissershaven moet verbonden zijn met het dorpshuis.<!brk>Bouw een weg om ze met elkaar te verbinden.;
+  village_fish_roads_task=Verbind de vissershaven met het dorpshuis doormiddel van een weg;
+  village_storage=Alle productie facilititeiten zoals de vissershaven moeten hun goederen opslaan in de dichtstbijzijnde opslag.<!brk>Onthou dat opslag gebouwen een beperkt bereik hebben en alleen gebruikt worden door een beperkt aantal productie faciliteiten.<!brk>Om het gebouw te draaien druk op {hotkey_a} of {hotkey_b}.;
+  village_storage_task=Bouw een kleine opslag nabij je vissershaven;
+  village_work=Zolang er genoeg goederen zijn, ruimte om te leven en werken zullen er mensen blijven komen naar het dorp en het helpen te groeien.<!brk>Om dit te bereiken moeten ze wel in staat zijn om te werken!;
+
+  village_station_info=Het meeste werk wordt uitgevoerd buiten het dorp. Arbeiders moeten reizen naar boerderijen en facaliteiten rond de kolonie.<!brk>Jij kunt hun en de goederen er brengen door een station te bouwen.;
+  village_station_reach=Stations hebben een beperkt bereik, zorg er voor dat je jouw station plaatst op een plek met het beste bereik in je dorp. Onthoud dat stations en dorpen met elkaar verbonden moeten zijn doormiddel van een weg.<!brk>Selecteer een station vanuit het logistieke onderdeel van het bouw menu en bouw het.;
+  village_station_reach_task=Bouw een klein station;
+  village_station_platforms=Treinen kunnen alleen laden en lossen wanneer de wagons stoppen bij het station of de aangesloten perrons.<!brk>Bouw wat perrons om je station uit te breiden!;
+  village_station_platforms_task=Bouw perrons;
+  village_station_select=Select het "{name}" station;
+
+  village_attractiveness=De aantrekkelijkheidsscore van het dorp zou verlaagd kunnen zijn door bepaalde gebouwen, zoals vissershavens.<!brk>Als je dorp te onaantrekkelijk is zal dit invloed hebben op het geluk van de inwoners en toeristen vanuit andere nederzettingen zullen niet op bezoek willen komen. Niemand wil toch naar een lelijk dorp!;
+  village_decorations=Je kunt je dorp aantrekkelijker maken door het te decoreren!<!brk>Selecteer spar vanuit het bouwmenu en verfraai het naar jouw smaak.;
+  village_decorations_task=Verfraai jouw dorp tot het weer aantrekkelijk is;
+  village_market=Dienstgebouwen zoals de markt zijn nodig om je bewoners productief te houden.<!brk>Sommige van je inwoneners en de vissershaven missen de markt en zouden het waarderen als je er een zou maken.;
+  village_market_task=Bouw een markt bij de gebouwen die het nodig hebben;
+  village_population=Nu is het tijd om je kennis toe te passen op je nieuwe dorp! Breid je dorp uit tot een totaal van {count} inwoners.<!brk>Blijf bouwen en vergroot je populatie, bouw het dorp naar jouw wens!;
+  village_population_task=Laat de populatie van jouw dorp groeien tot {count} inwoners;
+  village_end=Gefeliciteerd! Je hebt geleerd hoe je dorpen kunt bouwen en uitbreiden! Blijf geweldige nederzettingen bouwen!;
+
+  // Expansion Tutorial
+
+  expansion=Uitbreiding;
+
+  expansion_intro=In deze uitleg leer je hoe je productie faciliteiten kunt opzetten buiten je stad en hoe je alles met elkaar kunt verbinden en arbeiders en goederen kunt verplaatsen in het spoornet.;
+  expansion_fuel=Treinen zijn de enige manier van transport en de sleutel tot uitbreiding. Treinen moeten echter tanken om efficient te kunnen werken. Een trein zonder brandstof zal veel langzamer rijden tot hij bijgetanked is. Dit betekend dat goederen niet op tijd bezorgd zullen worden!<!brk>Om te tanken hebben treinen een station nodig met brandstof.;
+  expansion_coal=Kolen mijnen produceren brandstof voor treinen. Elke stoomtrein stopt waar er een kolen zijn en zal deze automatisch inslaan.<!brk>Alle productie faciliteiten hebben arbeiders nodig en reguliere treinen voor af- en aanvoer.;
+  expansion_chain=Ga met de muis over goederen om te productie ketting te bekijken;
+  expansion_chain_task=Ga met de muis over het kolen pictogram;
+  expansion_select_mine=Selecteer de kolen mijn;
+  expansion_route=De kolen uit deze mijn worden niet per trein bezorgd aan een pakhuis of dorp.<!brk>Voeg een route toe die de kolen mijn verbind met het pakhuis en wijs een kolentrein toe aan die route.;
+  expansion_route_task=Wijs route "{name_a}" toe aan trein "{name_b}";
+
+  expansion_warehouse=Het pakhuis is een andere sleutel in het uitbreiden van je kolonie.<!brk>Bouwmaterialen kunnen pas gebruikt worden om te bouwen als ze hier opgeslagen zijn;
+  expansion_select_warehouse=Selecteer het pakhuis;
+  expansion_wood=De meeste gebouwen hebben bepaalde goederen nodig voor onderhoud. Deze worden automatisch gepakt uit het pakhuis.<!brk>Helaas is ons hout bijna op! Ga met de muis over het hout pictogram om te zien waar het wordt geproduceerd.;
+  expansion_wood_task=Ga met de muis over het hout pictogram;
+  expansion_sawmill=We hebben nu maar één zaagmolen, deze produceert 60 hout/min, terwijl de vraag {amount}/min is.<!brk>We hebben meer hout nodig om ons verbruik bij te houden. Bouw een andere zaagmolen bij je spoornet.;
+  expansion_sawmill_task=Bouw een zaagmolen;
+  expansion_select_sawmill=Selecteer de nieuwe zaagmolen;
+  expansion_plantation=Een zaagmolen is niet genoeg. Arbeiders kunnen kunnen niets produceren zonder een bron van materialen. Je zult bomen moeten leveren om ze hout te laten produceren.<!brk>Breid de zaagmolen uit met bomentelers.;
+  expansion_plantation_task=Bouw bomentelers;
+  expansion_storage=Je kunt ook je houtopslag uitbreiden.<!brk>Met meer opslag beschikbaar verlies je geen tijd als de treinen te laat komen.;
+  expansion_storage_task=Bouw opslag;
+
+  expansion_problem=De zaagmolen is compleet! Alles wat er nog moet gebeuren is het aansluiten op het spoornet om arbeiders te halen en het leveren van hout aan het pakhuis.;
+  expansion_station=Om arbeiders en goederen naar en vanaf de zaagmolen te vervoeren hebben we een station nodig.<!brk>Stations kunnen worden verbonden aan een gebouw door ze naast elkaar te bouwen.;
+  expansion_platforms=Bouw een extra perron om het station uit te breiden. Op langere stations kunnen langere treinen stoppen.;
+  expansion_rails_middle=Nu je een station hebt heb je sporen nodig om de treinen te laten rijden.<!brk>Bouw sporen parallel aan het platform.;
+  expansion_rails_start=Sporen zijn ook nodig om het station aan te sluiten op het spoornet.<!brk>Bouw een pad voor treinen om bij het station te komen.;
+  expansion_rails_end=Hoewel Sweet Transit treinen heeft die in twee richtingen kunnen rijden heeft deze uitleg alleen treinen die in één richting rijden. Om de trein uit het station te laten moet er een uitgang gebouwd worden.<!brk>Bouw een pad uit het station terug naar het spoornet met behulp van het spoor.;
+  expansion_rails_task=Bouw spoor;
+  expansion_separate=Deze spoorblokken werken voor een enkele trein maar als het spoornet ingewikkelder wordt ontstaat er een risico voor botsingen tussen verschillende treinen.<!brk>Seinen delen de spoorlijnen op in blokken die alleen gebruikt kunnen worden door een enkele trein. Met seinen er tussen zullen treinen niet hetzelfde blok betreden.;
+  expansion_separate_task=Bouw seinen;
+
+  expansion_route_people=We hebben de zaagmolen klaar en verbonden met het spoornet.<!brk>Vervolgens maken we een route die arbeiders verplaatst tussen station "{name_a}" en station "{name_b}".;
+  expansion_depot=In het trein depot kunnen we treinen bouwen en beheren.<!brk>Je kunt eeen nieuwe trein maken door het treinen depot te selecteren en dan te drukken op de knop Voeg een nieuwe trein toe.;
+  expansion_select_depot=Selecteer het treindepot;
+  expansion_open_presets=Druk op de knop Voeg nieuwe trein toe;
+  expansion_edit_presets=Druk op de knop bewerk trein;
+  expansion_train_people=Elke trein heeft tenminste één locomotief nodig om te bewegen en wat wagons om lading te vervoeren.<!brk>Voor deze les hebben we een passagierswagon nodig om onze arbeiders naar hun werk te brengen.;
+  expansion_route_wood=We hebben nog een trein nodig om het hout te verplaatsen van de zaagmolen naar het pakhuis. Maak een route voor de trein om te volgen.;
+  expansion_train_wood=De trein heeft ook wagons nodig om hout te transporteren. Kies de platwagon F10.;
+  expansion_open_routes=Open het route menu met {hotkey};
+  expansion_remove_destination=Verwijder bestemming nr.{key};
+  expansion_action_swap=Stel de actie "Wissel Arbeiders" in bij bestemming {key};
+  expansion_action_load=Stel de actie om te "Laden" bij bestemming {key};
+  expansion_action_unload=Stel de actie "Lossen" in bij bestemming {key};
+  expansion_condition=Klik op "Toevoegen wacht conditie" en kies "Voor gepasseerde tijd" voor bestemming {key};
+  expansion_add_locomotive=Voeg een ST10 locomotief toe;
+  expansion_add_passengers=Voeg een ST10 wagon toe;
+  expansion_add_flat=Voeg 3 platwagons F10 toe;
+  expansion_remove_wagon=Er zijn teveel wagons! Klik op de rechtermuisknop op een wagon om deze te verwijderen.;
+  expansion_create_new=Maak een nieuwe voorkeur;
+  expansion_press_build=Druk op "Plaatsen";
+
+
+  expansion_end=Gefeliciteerd, je hebt alles geleerd om uit te kunnen breiden!<!brk>Als je deze kolonie wilt blijven uitbreiden probeer dan een aardappelboerderij te verbinden met je spoornet.<!brk>Aardappelen zijn een vereiste voor arbeidershuizen dus deze moeten direct geleverd worden aan het dorp in plaats van het pakhuis.;
+
+
+  // Signals Tutorial
+
+  signals=Seinen;
+
+  signals_t_intro=In deze les leer je over seinen en hoe je ze kunt gebruiken om het spoornet te beheersen.<!brk>Seinen delen het spoor op in blokken. Er kan maar één trein zijn per block.<!brk>Het gekleurde blok betekend dat het is gereserveerd voor een trein en een wit blok betekend dat het beschikbaar is.<!brk>Met behulp van seinen kan je er voor zorgen dat het verkeer gecontroleerd is en er geen botsingen ontstaan.;
+  signals_t_two_trains=Seinen kijken een blok vooruit. Ze laten een trein alleen door als het block er voor niet gereserveerd is door een anderee trein.;
+  signals_t_first_signal=Een seinblok begint en eindigd bij seinen.<!brk>In dit voorbeeld zit een trein klem en kan die enkele vervelende wagon omdat de wagon op het sein er voor staat.<!brk>We kunnen de trein er omheen helpen door seinen te maken die de wagon scheiden van het kruispunt en daarmee een pad openen.;
+  signals_t_first_signal_task=Plaats seinen om de wagon {percent};
+  signals_t_segment=Je kunt ook de linkermuisknop gebruiken om meerdere seinen te plaatsen.<!brk>Meerdere seinen besturen niet alleen het verkeer. Als je meerdere seinen plaatst bij elkaar kan je meer treinen kwijt en kan je het spoor beter gebruiken.<!brk>Onthoud, seinen geven ook aan in welke richting een trein mag rijden.;
+  signals_t_segment_task=Plaats seinen door te slepen {percent};
+  signals_t_circle=Met seinen kan je meerdere treinen tegelijk laten rijden. In dit voorbeeld heb je tenminste 4 seinblokken nodig in de cirkel.<!brk>Druk op {keys} of rechtermuisknop om de bouwmodus te verlaten en te zien welke blokken de treinen gebruiken.;
+  signals_t_circle_task=Zorg dat drie treinen in een cirkel kunnen bewegen {percent};
+  signals_t_two_way=Seinen kunnen in één of tweerichtingen zijn. Om een tweerichtingssein te maken, plaats twee seinen op hetzelfde spoordeel.<!brk>Tweerichtings seinen hebben hun nut maar pas op hoe je ze gebruikt!;
+  signals_t_two_way_task=Sta de trein toe om terug te rijden {percent};
+
+  signals_t_chain=Soms zijn simpele seinen niet genoeg.<!brk>Treinen kunnen nog steeds stoppen op de verkeerde plek op het verkeerde moment en daarmee andere treinen blokkeren. Gelukkig kan je dit voorkomen met kettingseinen.;
+  signals_t_chaining=Kettingseinen laten geen trein door tenzij het volgende blok veilig gebruikt kan worden.<!brk>Door meerdere kettingseinen in een rij te plaatsen kan je het bereik vergroten.<!brk>Gebruik kettingseinen als je niet wilt dat een trein stopt op een bepaalde plek zoals een kruispunt.;
+  signals_t_intersection=Normale seinen gebruiken op kruispunten is risicovol. Ze raken snel geblokkeerd door een trein die in het midden stopt.<!brk>Onthoud om kettingseinen te plaatsen als je een knooppunt binnen gaat.<!brk>Kettingsignalen houden in deze situatie het netwerk in beweging.;
+  signals_t_chain_test=Dit kruispunt is geblokkeerd! Gebruik kettingseinen om het te deblokkeren.<!brk>Vervang de seinen in het knooppunt met kettingseinen.;
+  signals_t_chain_test_task=Deblokkeer het kruispunt {percent};
+  signals_t_station=Kettingseinen zijn heel handig bij stations met meerdere ingangen.<!brk>Een trein herberekend zijn pad en gaat verder.;
+  signals_t_station_task=Deblokkeer het station {percent};
+  signals_t_test_rail=Probeer het netwerk te deblokkeren met maar 4 extra seinen.;
+  signals_t_test_chain=Dit spoornet kan gedeblokkeerd worden met 2 kettingseinen.<!brk>Vervang seinen met kettingseinen.;
+  signals_t_test_mix=Je hebt zowel seinen als kettingseinen nodig om dit netwerk te deblokkeren.<!brk>Probeer eerst met seinen, breid daarna sommige uit naar kettingseinen.<!brk>Deze taak is het lastigst maar optioneel.;
+  signals_t_test_task=Deblokkeer het spoornet {percent};
+  signals_t_end=Gefeliciteerd! Hiermee zou je alles moeten weten over seinen en het beheersen van het spoor. Je bent nu klaar om je eigen spoornet te maken!;
+}
